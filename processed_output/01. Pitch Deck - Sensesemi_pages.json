@@ -1,0 +1,90 @@
+{
+    "document_name": "01. Pitch Deck - Sensesemi.pdf",
+    "total_word_count": 2335,
+    "pages": {
+        "page_1": {
+            "word_count": 13,
+            "text": "Next Gen Wireless Micro\nEdge-AI SOC\nVijay Muktamath\nFounder & CEO Sensesemi Technologies"
+        },
+        "page_2": {
+            "word_count": 177,
+            "text": "EXECUTIVE SUMMARY\nABOUT WHY US\nSensesemis is creating a next-generation data- * The market for AIOT is closed to 30 billion nodes\ndriven wireless AIoT SoC, an exciting venture with * There are 5-8 companies targeting this market for\nsignificant potential across industries. tomorrow\n* Sensesemi is growing with LOI traction (2 secured) for\nTechnology\nproduct SenseSoC\nAI-Enabled Secure MCU with BLE for Intelligent and * The cost and feature rich for node intelligence chip\nConnected SoC (System-on-Chip) to solve Low makes us stand out with our customers on\npower, latency and decision at the sensor node. Performance and low power\nOPERATIONS FINANCES\nTeam 60 Years of cumulative\nexperience in SOC and Products\nHeadquarters Bangalore, India\nFunding Ask GOI (Grants)\nBusiness Model Sale of SoCs\n$3 M\nSecured $2 M\n(Term-sheet for $1.2 M)\nEmpowering Product Innovation: Uniting IoT and AI for a Smarter Future with Sensesemi\nSensesemis is creating a next-generation data-\ndriven wireless AloT SoC, an exciting venture with\nAl-Enabled Secure MCU with BLE for Intelligent and\noower, latency and decision at the sensor node."
+        },
+        "page_3": {
+            "word_count": 69,
+            "text": "THE PROBLEM\n* Humongous data sent to to cloud leading energy inefficiency, Privacy and security breach\n* Low power and accurate intelligence to manage the data at the Sensor node is missing\n160 ZB data is generated in cloud 20 Billion Devices connected\nConnected\nData\ndevices\ntoday today\nMind\nBoggling\n32 ZB is generated at the Edge Device, which will be 750 ZB by 2030\nPower Dissipation Latency Bandwidth"
+        },
+        "page_4": {
+            "word_count": 176,
+            "text": "SENSESEMIS FLAGSHIP PRODUCT\nBRINGING AI TO SENSOR NODE\nFeatures USP\n* SenseNPUTM - Novel Neuromorphic AI RL Engine * >10x reduced power with Neuromorphic AI Compute\n* Powerful MCU with low power vector processing * Reinforcement Learning AI engine for real-time learning and\n* End-to-end crypto-based security in hardware inference\n* Mesh network for data collaboration with BLE * Verticalized SoC Product for high volume market (IoT)\n* Novel On-Chip calibration for increased Performance\nSignal processing Machine learning\nSignal acquisition Feature Algorithm & Enhanced data driven machine learning\nconditioning extraction decision Applications\nConsumer Industry\nSmart Appliances\nRadio + Controller + NPU (voice,\nvision)\n4x AI\n~2x Power SenseSoC Data\n>30x\nimproved LOI\nEfficiency 450x faster\nFaster ML &\nsignal\nVision\nReal World ML with\nProcessing\nProcessing\nSignal SenseNPUTM Industrial Industry\n>10x Lower Voice,\n& 15x on\nInputs & MCU Smart Metering\nPower\nML Radio + Controller + NPU (data)\nRobotics\nRadio + Controller + NPU (data)\nSenseNPUTM\nSENSESEMIS FLAGSHIP PRODUCT someon\nSignal processing -_>> __ machine learning >\nRan SenseNPU(tm)\nVoice, Vision & Data Al Applications"
+        },
+        "page_5": {
+            "word_count": 30,
+            "text": "WHAT SENSESOC-200 WILL DO\nWHAT SENSESOC-200 WILL DO senses\nTurn the Data Flywheel, Flip Data Pyramid Upside Down\nCommon Crawl 9\nThee Peey rw: hoger hes\n(growing but dwarfed by"
+        },
+        "page_6": {
+            "word_count": 52,
+            "text": "TRACTION FOR SENSESOC-200\nCONSUMER IOT INDUSTRIAL IOT\nSmart Lighting Voice Enabled Controller\nWearables\nSmart Metering\nVoice enabled Toys\nIndustrial Automation\nStarted talking to as many customers as we can in Industrial IOT on the product fit\nA E QUS : Galaxy of Intelligence\necosystems of efficiency vating Pr ofitable Sustain Sustainabi ility"
+        },
+        "page_7": {
+            "word_count": 210,
+            "text": "TECHNOLOGY ROADMAP\nProcessor Digital IPs & Peripherals\nProcessor\nUART\nUART 3rd Party IP & FW/SW\nSenseNPU\nSPI, I2C, I2S, SenseNPU Digital IPs & Peripherals\nPDM, PWM, SPI, I2C, I2S, Sensesemi IP & FW/SW\nGPIOs, LCD PDM, PWM, Sensesemi IP Roadmap\nProcessor GPIOs, LCD\nController * In-memory Analog Inference\nAnalog NPU Controller RF IPs & Peripherals\nUART 3rd Party IP & Drivers NPU\nWiFi\nSatellite * BLE 6.0 (RF/Analog)\nSPI, I2C, I2S,\nPDM, PWM, BLE 6.0 RF IPs & Peripherals * Analog-Frontend blocks\nController\nGPIOs, LCD DAC/ADC Sensesemi IP & Drivers\nDigital NPU (Low Power)\nController DAC/ADC Voltage Comp\nUART\nTemp Sensor * High-speed peripherals\nVoltage Comp\nAnalog IPs & Peripherals\nSPI, I2C, I2S, Temp Sensor * DSP & ML Algorithms\nBLE 5.x\nSensesemi IP\nPDM, PWM,\nGPIOs, LCD\nDAC/ADC\nController NPU Differentiation\nVoltage Comp\nTemp Sensor - Low-power, high\nBLE 5.x SenseSoC500\nperformance NPU\nSenseSoC400\nDAC/ADC - 3 phases of NPU\nVoltage Comp development:\nTemp Sensor\n2029 - Digital NPU - 3rd party\nSenseSoC300 digital IP\n- Analog NPU - 3rd party\nanalog IP\n- SenseNPU - Sensesemi\nSensePF\nanalog IP\nSenseSoC200\nAnalog Peripherals\n- Accurate sensor data inputs\n- Capture data flow, Energy\n2025\nand Health sensors.\nSensesemis strong Analog/RF and SoC team\nSPI, I2C, 12S, BLE5.x Temp Sensor"
+        },
+        "page_8": {
+            "word_count": 152,
+            "text": "SENSESOC APPLICATIONS\n* SenseSOC-200 will be in used in AC/Kitchen appliances for Industrial and\nHouse holds\n* Appliances will be voice-controlled with intelligence for predictive Analysis\n* Voice Control- Allowing users to operate the AC through voice commands\n* Predictive Analysis- Utilizing data and machine learning techniques to predict maintenance\n1. Predicting optimal temperature based on usage patterns and weather conditions\n2. Anticipating and alerting users to potential maintenance\n* SenseSOC-200 will be in every Smart Meter\n* Gas, electricity and water for Industrial and Household\n* Real-Time Monitoring: Provide users and utility providers with real-time data on consumption,\nenabling better management and understanding of resource usage\n* Data Analytics: Offer insights through data collection and analysis, helping to optimize usage\npatterns and enhance efficiency\n* Predictive Maintenance: Identify potential issues with the infrastructure before they become\nsignificant problems, reducing maintenance costs and improving service reliability\nns So VRS: ; House holds"
+        },
+        "page_9": {
+            "word_count": 288,
+            "text": "MARKET POTENTIAL\nGLOBAL CONNECTED SHIPMENTS TAM, SAM, SOM\n30 B\n35 Connected Device Worldwide Units Regionwide Connected Devices\nIndia\n30 29.42 40k\n27.31\nMillions\nBillions 25.21\n25 23.14\n30k 29,422.1\n21.09 27,313.6\nin 23,136 25,214\nin 19.08 21,094.8\nDevices 20 Devices\n17.08 20k 19,087.4\n15.14 17,082.2\n13,143.3 15,138.2\n15 13.14 11,281\n9,756.6\nConnected 11.28 Connected 10k\n10 9.76\n8.6\n0\n5 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030\n0 Europe Great China India and South\n2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 Australia\nJapan Latin America MENA North America\nRussia & Central Asia South-East Asia South Koreo Sub-Saharan Africa\n6 B\nEdge Enabled Devices Worldwide Units\n1233\n8k\nMillions 1154\n1070 TAM\n6k\n983\nin SOM 30 Bn Units\n895\nDevices 807 6469\n4k 1 Bn Units\n721\n638 6065\n554 5641\n5202\nConnected 2k 473 4304 4754\n401 3419 3853\n3009\n2629\n2303\n0\n2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 SAM\n75 M Units\nConsumer Enterprise\n6 = 25 ! 5S 30k 27131316 or\n! F 20 ) g ieoera waa cian !\n| 8 45 11 8 ne = ae 2 !\nPS10 g6 976 pore = !\n, 5 7 2020 2021 Z 2023 2024 2025 2026 2027 2028 2029 2030 =:\n| 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 : ~ Australia Beeuore yd Su easKSnllne) 1 UileIe ateleseliat !\n; (c) Japan >> Latin America e MENA (r) North America !\nweeew eee ew wee ewe ewe ew ewe ew ewe ew ew ewe ewe ew ew ew eee ew ew ew ewe ew ew ew ew ew ew ewe ew ew ewe ew"
+        },
+        "page_10": {
+            "word_count": 227,
+            "text": "GLOBAL HEALTHCARE MARKET FOR SEMICONDUCTORS\nGLOBAL MEDICAL DEVICES MARKET GLOBAL MEDICAL WEARABLES MARKET\n800\n673.16\n90\n638.47\n573.33 605.38 Dollars\n600 541.63\n509.93 80\n478.54\n449.80 U.S. 3.4\n422.08 60\n402.87 Billion\n400 367.78 385.77 379.86\n346.49 20.56\nUSD 40\nin\nValue 21.2\nBillion 1.67\n200 20 1.41\n1.26 5.88 7.23\nMarket 1.09\n0.9 4.2 4.77 6.54 6.29 30.95\nIn 3.08 5.61\n3.81 4.82\n7.8 9.29 11.36 13.62\n0 6.21\n2020 2021 2022 2023 2024 2029*\n0\n2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029\nNorth America Europe Asia-Pacific Rest of World\nTotal Cardiology Devices Dental Devices Diabetes Care Devices Diagnostic Imaging Devices\nEndoscopic Devices General & Plastic Surgery Devices Ophthalmic Devices Orthopedic Devices\nOther Medical Devices\nGLOBAL IMPLANT DEVICES MARKET\n$ 207.0\n220\n$ 194.1\n190 $ 181.9\nUSD $ 170.3\n$ 159.4\nBillion\n160 $ 149.2\n$ 130.3 $ 139.5\nIn $ 121.6\n130\n$ 113.4\n$ 105.7\n100\n2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033\n(r) Total (c) Cardiology Devices (r)@ Dental Devices (r)DiabetesCare Devices (c) Diagnostic Imaging Devices * North America (c) Europe = (r) Asia-Pacific (c) Rest of World\n! 149.580 a _ _ = ri Ww !\n! A400 346.49 367.78 385.77 402.87 379.86 > _ 7 S !\neS Bs BS GS iB BS SE BSS BS FS 8B a"
+        },
+        "page_11": {
+            "word_count": 91,
+            "text": "INDIA MARKET POTENTIAL AIOT\nINDIA MARKET FOR INDUSTRIAL IOT INDIA MARKET FOR CONSUMER IOT\nSmart Meter Market India (In Million)\n* Sensesemi has LOI of 1.2 M units yearly for smart metering\n* Have 240 Million units Roadmap for the OEM\n* Sensesemi has 10 Million units per year soft commitment into Voice-Enabled Smart Appliances for 2026\nSource: https://www.zionmarketresearch.com/report/india-smart-meter-market\nSmart Meter Market India (In Million) Market Size in USD Billion\nan -- ne - eee USD 14.28 B\nCAGR: 33.30% 2.823 Mn\n2023 202 202 26 2027 2 2030 2031 2032"
+        },
+        "page_12": {
+            "word_count": 106,
+            "text": "OUR TEAM\nVIJAY MUKTAMATH | CEO NAMIT VARMA | VICE PRESIDENT DR. MANJUNATH K | TECHNICAL DIRECTOR\n20+ Years in Semiconductors and Embedded Products 22+ Years in SOC Architecture and Design 10+ Years in Analog Mixed Signal Design\nEx-Asarva (VP), Ex-BVA (Research Fellow, Aus), Ex-Achnonix, Ex-Intel, Ex-TI and Ex-AMD, Ex-Skyworks, Ex-Karmic and\nEx-LSI, Ex-NEC (Aus) and MS (Aus) IIT-B (Mumbai) PhD (Oregon University, USA)\nTEAM EXPERIENCE\n6 Decades of SOC design ANUROOP IYENGAR\nVISHY M | CHIEF SOC ARCHITECT\n14 Test chips Advisory Board\n30+ Years in Chip/System Architecture\n08 Productions SOCs\nDeep Tech Entrepreneur\nEx-Centillium, Ex-Arcus, Ex-ITI and\nMachine & Human Conversation Expert IIT-M (Chennai)"
+        },
+        "page_13": {
+            "word_count": 93,
+            "text": "COMPETITION\nUSA JAPAN ISRAEL\nGERMANY USA\nINDIA\nRoadmap (Ultra Low Power NPU) 40% Lower\nEnergy-efficient DSP/ML Compute Low Power NPU\nCost\n* < 500 uW for KWS\n* > 2x improvement in energy efficiency * < 10mW for KWS\nWIRELESS * < 100 uW for Image detection\n* > 30% increase in Coremark Performance * < 5mW for Image detection\n* Analog MACs\n* 8x uplift to DSP performance * Up to 256 MACs configuration\n* Low power Analog Peripherals\nALIF EDGECORTIX HAILO\nXELE SAvese| oem\nC/ < 100 uW for Image detection"
+        },
+        "page_14": {
+            "word_count": 56,
+            "text": "PARTNERSHIP & VALIDATION\nHaving ARM partnership gives us to build the AI Chips for future,\nFaster to the Market with customer applications\nDLI ACCEPTANCE FROM GOI\nRs15 Cr Grants ($ 2M)\nSemicon India Design Linked\nIncentive (DLI) scheme as part of\nMEITY\nSemicon India Design Linked eS : C\nIncentive (DLI) scheme as part of SIEMENS"
+        },
+        "page_15": {
+            "word_count": 132,
+            "text": "REVENUE FORECAST OF SENSESOC\nRevenue/Year 2026 2027 2028 2029 2030\n0.5 10 20 50 75\nSenseSOC (M units)\n2**\nRevenue Before Tax\n15 30 75 150\nUS $ M (advance payment\ncertification, Initiate\nproduction)\n5 million SoCs in 2028 is a realistic base case\nCLIENT FEEDBACK BUSINESS CASE\nOrganize worksshops with potential clients. Articulate value proposition\nUnderstand their vision & align expectations Validate hypotheses with real world data\nSign LOls Enter into agreements with fabrication and other\nparts of the supply chain\nMARKETING\nRESEARCH\nEngage at industry forums\nLeverage Network Interview Industry Veterans\nShowcase the unique parts of the Analyze reports\nSensesemi solution Understand macroeconomic trends\nREVENUE FORECAST OF SENSESOC censeeem\nRevenue/Year 2026 2027 2028 PAOPAS)\nSenseSOC (M units) 0.5 10 20 50 715\nUS $M A ala pata ae ie 150"
+        },
+        "page_16": {
+            "word_count": 78,
+            "text": "FUNDING ASK\nFUNDING UTILIZATION FOR MVP\nFund Utilization (%)\n9\n5%\n$8.0 M (65 Cr.)\n5%\n8\nLooking for $3 M\n(Rs 25 Cr.)\n7\nMVP\nMillion 6\n20% 40%\n5\nin\n4\nUSD\n$3 M (25 Cr.)\n3\n2\n10%\n1\n10% 10% 0\nSeed Series A\nIP Design and Devlopment MPV Fabrication & Testing Opex (Office and finance) Business Development\nIP Licensing IT, FPGA and Softwares Contingency\nOo F NY WwW FSF IT DN WO OO"
+        },
+        "page_17": {
+            "word_count": 139,
+            "text": "MILESTONES\nSEED MONEY $3 M\nEngineering Engineering\nTalent Hire\nSamples Samples\nTape-out 1 ( Prototype 1) Tape-out 2 ( Prototype 2) Production\nPOC Ready\nFirmware Architecture Application Architecture Firmware & Application Proto Firmware & Application Design Ready\nQ4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4\n2024 2025 2026\nTape-out $10 M\nMILESTONES MILESTONES\n- IPs Procurement - 2nd Test Chip Tape-out & Testing, Evaluation Board\n- Proof Of Concept (POC) to Potential Customers using FPGA & Firmware - Certification of BLE and Production\n- SOC Execution - 3 Customers for 2 M Units\n- 1st Test-chip Tape-out - Production Ready & Application Codes Ready\n- Testing and Evaluation Board & Initial Firmware - Binding LOI from Customers for 5 M Units\n- One binding LOI from Customer for 0.5 M Units - IP Costs\nTalent Hi Engineering Engineering"
+        },
+        "page_18": {
+            "word_count": 16,
+            "text": "THANK YOU\n+91 98866 93835 vijay.muktamath@sensesemi.com www.sensesemi.com\nSensesemi Technologies Pvt. Ltd.\nAll Rights Reserved copyright 2024"
+        },
+        "page_19": {
+            "word_count": 47,
+            "text": "SENSESOC TECHNOLOGY STACK\nCustomer Software with AI/ML Inferencing models\nAI/ML Algorithms Algorithm\n(Includes Reinforcement Learning )\nSNN for Sensor Integration\nCompute Building blocks SenseSoC\n(Controller with Signal Conditioning and Neural Processing unit)\nSilicon\nConnectivity\nBLE 6.0 Analog Front End Camera Digital\n(Mesh Technology) (Analog) (MIPI) (I2C, SPI)"
+        },
+        "page_20": {
+            "word_count": 35,
+            "text": "SENSESOC FUTURE IIOT APPLICATIONS\nSmart Manufacturing\nRobotics\nAIOT\nPredictive Node Edge\nAutomotive\nHealthcare\nTPMS (Tire Pressure\nMonitoring)\nWearables\nBattery Management Systems\ncustomization- Digital Twin\nBatch size 1\nJewellery J Tracker\nBattery Management Systems Sais Head"
+        },
+        "page_21": {
+            "word_count": 148,
+            "text": "THE TIME IS RIGHT TO INVEST 6 REASONS WHY INDIA IS AN INVESTMENT HUB\nIN INDIA / SENSESEMI FOR SEMICONDUCTORS\nSENSESEMI ALREADY HAS:\n-$1.9 M (Rs 15 Cr) Grants from the Government of India\n-EDA tools of Synopsys/Cadence/Siemens-mentor\n-Traction with clients (LOI) GOVERNANCE TECHNOLOGY ECONOMY\n-Collaborations with academia and key institutions\nIndias ambitious push for India is investing in India is headed for robust\n-Collaborations with Fabrication partners (TSMC/GF) using tech to transform developing capabilites in economic growth\ngovernance in all sectors 5G, IoT, clean energy\n-Access to talent - Located in the Silicon Valley\ntechnologies, data, AI, etc\nIndia\nSENSESEMI WILL BE POTENTIAL PLI APPLICANT\n-$4 M from the Government of India\nSILICON REFORMS MANUFACTURING\nIndias semiconductors Wide-Ranging reforms for\nMany measures towards\nconsumption is expected to ease of doing business in\ntransforming the Indian\ncross $80 billion by 2026, India\nmanufacturing sector\n$110 Billion by 2030"
+        }
+    }
+}
