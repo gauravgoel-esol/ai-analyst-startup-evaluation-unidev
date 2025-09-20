@@ -1,18 +1,4 @@
-"""
-Advanced Analytics Application for Startup Analysis
 
-This module handles advanced analytics for startup analysis including:
-- Predictive analytics for success probability and market trends forecasting
-- Investment recommendations tailored to specific investor profiles
-- Industry benchmarking against peer startups and sector standards
-- Comprehensive analytics orchestration with proper error handling
-
-The module leverages Google's Gemini Pro AI model to generate intelligent
-analytics and predictions based on historical data and current metrics.
-
-Author: AI Analyst System
-Date: September 20, 2025
-"""
 
 import google.generativeai as genai
 import os
