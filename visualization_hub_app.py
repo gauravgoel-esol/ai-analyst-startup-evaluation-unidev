@@ -1,18 +1,4 @@
-"""
-Visualization Hub Application for Startup Analysis
 
-This module handles all visualization components for startup analysis, including:
-- Interactive chart generation for financial metrics and risk assessments
-- Investor presentation slide creation with customizable templates
-- Detailed report generation for due diligence and investment memos
-- Real-time dashboard components with live data updates
-
-The module leverages Google's Gemini Pro AI model to generate intelligent
-visualizations tailored to different investor types and presentation contexts.
-
-Author: AI Analyst System
-Date: September 20, 2025
-"""
 
 import google.generativeai as genai
 import os
