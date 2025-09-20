@@ -1,18 +1,4 @@
-"""
-Output Distribution Application for Startup Analysis
 
-This module handles output distribution for startup analysis including:
-- Investor portal content generation with deal flow dashboards and due diligence materials
-- Startup portal content with progress tracking and improvement plans
-- Smart notifications system with intelligent alerts and personalized communications
-- External integrations management with CRM, financial systems, and data syndication
-
-The module leverages Google's Gemini Pro AI model to generate intelligent
-output distribution content based on analysis data and user configurations.
-
-Author: AI Analyst System
-Date: September 20, 2025
-"""
 
 import google.generativeai as genai
 import os
