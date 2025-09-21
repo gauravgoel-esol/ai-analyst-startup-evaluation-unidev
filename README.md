@@ -1,6 +1,6 @@
 # Navonmesa – AI-Powered Startup Analyst
 
-![Navonmesa Logo](.\data\logo_navonmesa.png)
+![Navonmesa Logo](https://github.com/gauravgoel-esol/ai-analyst-startup-evaluation-unidev/blob/main/data/logo_navonmesa.png)
 
 ## Overview
 
