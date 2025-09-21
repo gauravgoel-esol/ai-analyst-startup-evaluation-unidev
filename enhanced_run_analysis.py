@@ -1,14 +1,4 @@
-"""
-Enhanced Analysis Orchestrator with GenAI Integration
-==================================================
 
-Comprehensive startup analysis system that integrates advanced analytics, 
-visualizations, and output distribution with GenAI-powered insights and 
-unified reporting capabilities.
-
-Author: AI Assistant
-Created: 2024
-"""
 
 import json
 import logging

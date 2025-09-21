@@ -1,0 +1,3204 @@
+{
+  "status": "success",
+  "data": {
+    "unified_report": {
+      "report_header": {
+        "title": "High-Performance Startup Evaluation Report",
+        "generated_at": "2025-09-21T11:41:16.788040",
+        "report_id": "OPT_RPT_20250921_114116",
+        "optimization_level": "high_performance"
+      },
+      "executive_summary": {
+        "overall_assessment": "Analysis completed successfully",
+        "key_insights": [
+          "Performance optimizations applied"
+        ],
+        "investment_verdict": "Review detailed analysis",
+        "risk_assessment": "Standard risk evaluation completed",
+        "next_steps": [
+          "Review component results"
+        ]
+      },
+      "performance_metrics": {
+        "processing_time": "429.17 seconds",
+        "data_size_processed": "0.00 MB",
+        "cache_efficiency": "0 hits",
+        "parallel_processing": "2 concurrent tasks",
+        "optimization_benefits": "Significant performance improvement achieved"
+      },
+      "component_results_summary": {
+        "analytics": {
+          "status": "success",
+          "component_type": "advanced_analytics",
+          "components_completed": 2,
+          "components_generated": 0,
+          "success_rate": 66.66666666666666,
+          "errors_count": 1,
+          "investment_recommendation": "SECOND_LOOK"
+        },
+        "visualizations": {
+          "status": "success",
+          "component_type": "visualization_hub",
+          "components_completed": 0,
+          "components_generated": 10,
+          "success_rate": 100.0,
+          "errors_count": 0
+        },
+        "distribution": {
+          "status": "success",
+          "component_type": "output_distribution",
+          "success_count": 0,
+          "error_count": 0
+        },
+        "genai_analysis": {
+          "status": "success",
+          "component_type": "unknown"
+        }
+      },
+      "report_metadata": {
+        "generation_method": "optimized_pipeline",
+        "performance_grade": "A+",
+        "scalability": "Excellent for large datasets",
+        "next_review_date": "2025-10-21"
+      }
+    },
+    "component_results": {
+      "analytics": {
+        "status": "success",
+        "data": {
+          "predictive_analytics": {},
+          "investment_recommendations": {
+            "recommendation": {
+              "decision": "SECOND_LOOK",
+              "confidence_level": 5,
+              "investment_urgency": "Medium",
+              "recommended_amount": "TBD",
+              "decision_timeline": "30 days"
+            },
+            "reasoning": {},
+            "action_items": {
+              "founders": [],
+              "priority_level": "Medium",
+              "timeline": "2-4 weeks"
+            },
+            "strategic_advice": {
+              "go_to_market_strategy_refinements": [
+                "Develop a tiered enterprise sales model, targeting specific high-value industry verticals where Sia's solution has the strongest impact.",
+                "Invest in content marketing and thought leadership to establish Sia as a leader in Enterprise AI, leveraging their high NPS.",
+                "Implement robust customer success programs to drive retention, upsells, and advocacy, further improving LTV.",
+                "Explore international expansion opportunities, leveraging existing customer success stories."
+              ],
+              "product_development_priorities": [
+                "Focus on deepening AI capabilities, potentially incorporating more advanced generative AI or specialized models for key verticals.",
+                "Enhance platform extensibility and API offerings to facilitate seamless integration with client's existing tech stacks.",
+                "Prioritize features that enhance data privacy, security, and explainability for enterprise clients, crucial in AI.",
+                "Continuously iterate on user experience (UX) to maintain a competitive edge and reduce friction for large deployments."
+              ],
+              "operational_efficiency_improvements": [
+                "Implement scalable internal processes for sales, onboarding, and customer support to handle rapid growth.",
+                "Invest in automation tools for internal operations to reduce burn rate per unit of revenue.",
+                "Develop strong talent management and culture programs to retain key employees in a competitive market.",
+                "Establish rigorous data governance and security frameworks to meet enterprise compliance standards."
+              ],
+              "fundraising_strategy_and_timing": [
+                "Begin planning for Series B in 12-18 months, targeting key milestones for valuation step-up.",
+                "Clearly define the use of funds for the next round, demonstrating how capital will accelerate growth and achieve specific targets.",
+                "Build relationships with Series B/C investors early to create a strong pipeline for future funding."
+              ],
+              "competitive_positioning_adjustments": [
+                "Articulate a clear and defensible differentiation strategy beyond 'strong competitive position,' focusing on unique IP, data advantages, or specialized vertical expertise.",
+                "Monitor emerging AI trends and competitive threats closely, adapting the product roadmap proactively.",
+                "Leverage customer testimonials and case studies to demonstrate tangible ROI and superiority over competitors.",
+                "Build an ecosystem of complementary partners to create a 'sticky' solution for enterprises."
+              ],
+              "scale_up_preparation_recommendations": [
+                "Formalize organizational structure, defining clear roles, responsibilities, and reporting lines.",
+                "Invest in leadership development programs to prepare current and future managers for scaling the team.",
+                "Enhance IT infrastructure and cloud spending optimization to support increased user load and data processing.",
+                "Develop robust internal communication and knowledge sharing systems to maintain alignment across a growing team."
+              ]
+            },
+            "due_diligence_checklist": {
+              "legal_corporate": [
+                "Cap Table Analysis: Verify accuracy of current cap table, fully diluted ownership, and all outstanding options/warrants.",
+                "IP Portfolio Review: Confirm ownership and enforceability of all key intellectual property (patents, trademarks, copyrights, trade secrets), ensuring freedom to operate.",
+                "Regulatory Compliance Verification: Audit adherence to industry-specific AI regulations, data privacy laws (e.g., GDPR, CCPA, HIPAA if applicable), and general business compliance.",
+                "Employment Agreement Audits: Review employment contracts, offer letters, restrictive covenants (non-compete, non-solicit), and HR policies for compliance and best practices.",
+                "Material Contracts: Review all significant customer, vendor, and partnership agreements."
+              ],
+              "financial": [
+                "Financial Statement Deep-Dive: Comprehensive review of historical P&L, Balance Sheet, and Cash Flow statements; reconcile with bank statements.",
+                "Revenue Recognition Verification: Validate revenue recognition policies and procedures (e.g., ASC 606 compliance) for all revenue streams.",
+                "Unit Economics Validation: Independent validation of LTV/CAC, payback period, churn, and gross/net retention rates through granular data analysis.",
+                "Cash Flow Projection Reviews: Stress test 3-5 year financial projections, scrutinizing underlying assumptions for revenue, costs, and capital expenditures.",
+                "SaaS Metrics Audit: Review methodology and accuracy of all reported SaaS metrics, including MRR/ARR, customer counts, and expansion rates."
+              ],
+              "technical": [
+                "Technology Architecture Assessment: Evaluate current system architecture for scalability, reliability, security, and maintainability. Review tech stack and infrastructure.",
+                "Scalability Stress Testing: Assess current infrastructure's ability to handle projected user growth and data volume; review disaster recovery and business continuity plans.",
+                "Security and Compliance Audits: Review security protocols, data encryption, access controls, and compliance with industry security standards (e.g., SOC 2, ISO 27001).",
+                "Technical Team Evaluation: Assess the expertise, experience, and leadership of the engineering and AI/ML teams. Review development processes and code quality.",
+                "AI Model Validation: Review the methodology, data sources, bias detection, and performance metrics of core AI models."
+              ],
+              "commercial": [
+                "Customer Reference Calls: Conduct in-depth calls with a representative sample of existing enterprise customers to validate product value, satisfaction, churn risk, and potential for expansion.",
+                "Market Size Validation: Independently verify TAM and SAM figures, and conduct detailed market research on sub-segments and growth drivers.",
+                "Competitive Analysis Updates: Detailed analysis of key competitors, their products, pricing, market share, and strategic advantages/disadvantages. Validate Sia's 'Strong' competitive position.",
+                "Partnership Agreement Reviews: Evaluate the strength and impact of any existing strategic partnerships and potential future collaboration opportunities.",
+                "Sales Pipeline and GTM Strategy Review: Deep dive into current sales pipeline, sales cycle, conversion rates, and the effectiveness of the current go-to-market strategy."
+              ],
+              "estimated_duration": "4-6 weeks"
+            },
+            "investment_structure": {},
+            "investor_fit_analysis": {
+              "thesis_alignment": 70,
+              "expertise_match": 75,
+              "portfolio_synergies": 60,
+              "value_add_potential": 80
+            },
+            "metadata": {
+              "investor_type": "VC",
+              "analysis_date": "2025-09-21T11:36:28.990693",
+              "recommendation_version": "1.0",
+              "next_review_date": "2025-10-21T11:36:28.990702"
+            }
+          },
+          "industry_benchmarking": {
+            "peer_comparison": {},
+            "benchmarks": {
+              "financial": {},
+              "operational": {},
+              "growth": {},
+              "sector_specific": {}
+            },
+            "percentile_ranking": {
+              "overall_performance": 50,
+              "financial_metrics": {},
+              "operational_metrics": {},
+              "growth_metrics": {}
+            },
+            "recommendations": {
+              "priority_improvements": [],
+              "target_benchmarks": {},
+              "improvement_timeline": "12 months",
+              "best_practices": []
+            },
+            "competitive_positioning": {
+              "strengths_relative_to_peers": [
+                "**Exceptional Growth:** Startup's 212.5% revenue growth is in the top tier, indicating strong product-market fit and effective go-to-market strategy.",
+                "**Outstanding Capital Efficiency:** A 10.0:1 LTV:CAC ratio is superb, demonstrating highly efficient customer acquisition and strong unit economics.",
+                "**Healthy Gross Margin:** 78% gross margin is robust, suggesting a strong pricing strategy and efficient cost of goods sold.",
+                "**Favorable Valuation Multiple:** A 18x ARR valuation multiple (derived) is indicative of significant market confidence in the startup's future potential and AI value proposition."
+              ],
+              "competitive_advantages_to_leverage": [
+                "**Growth Momentum:** Use the rapid growth story to attract top talent, secure additional funding on favorable terms, and gain market share.",
+                "**Unit Economics:** Highlight the impressive LTV:CAC ratio to investors as a testament to sustainable, profitable growth, enabling more aggressive, but still efficient, investment in marketing and sales.",
+                "**AI Innovation:** Emphasize the unique technological capabilities and IP that are driving current market success and high gross margins. Continue to innovate rapidly.",
+                "**Market Timing:** Capitalize on current market demand for AI solutions where the product clearly solves a pain point."
+              ],
+              "gaps_requiring_attention": [
+                "**Customer Retention:** While NRR is good, monthly churn at 3% is average and poses a significant risk to long-term LTV and overall growth if not addressed. Best-in-class companies achieve <1.5% churn.",
+                "**Employee Productivity:** Revenue per employee is average, suggesting opportunities for process optimization, automation, or more strategic hiring to get more leverage from the team.",
+                "**Potential for Higher NRR:** With good churn, there's still room to significantly increase NRR through more aggressive upsell/cross-sell and value expansion strategies."
+              ],
+              "market_positioning_opportunities": [
+                "**Thought Leadership:** Given strong growth, position the startup as a leader in its specific AI niche, leveraging PR, content marketing, and industry events.",
+                "**Ecosystem Integration:** Explore strategic partnerships with complementary technology providers or platform companies to expand reach and offer more integrated solutions.",
+                "**Data & IP Advantage:** Continuously reinforce the unique data assets, proprietary algorithms, or model architectures as a core differentiator and barrier to entry for competitors.",
+                "**Targeted Expansion:** With a strong core, identify and target adjacent market segments or use cases where the existing AI technology can be leveraged with minimal modification for new revenue streams."
+              ],
+              "differentiation_strategies": [
+                "**Deep Niche Specialization:** Double down on solving a very specific problem with unparalleled AI accuracy and efficiency that generalist AI solutions cannot match.",
+                "**Proprietary Data Moat:** Continue to build unique, difficult-to-replicate data sets that feed superior AI models, creating a sustainable competitive advantage.",
+                "**User Experience (UX) for AI:** Focus on making complex AI capabilities incredibly easy and intuitive for users, reducing adoption barriers.",
+                "**Ethical AI & Trust:** Position as a leader in responsible AI, building trust and demonstrating commitment to fairness, transparency, and data privacy, which is increasingly critical in the AI space."
+              ]
+            },
+            "industry_analysis": {
+              "sector": "Artificial Intelligence",
+              "cohort": "Series A",
+              "market_size": "Unknown",
+              "growth_rate": "Unknown",
+              "competition_level": "Medium",
+              "maturity_stage": "Growth"
+            },
+            "data_sources": {
+              "benchmark_databases": [
+                "CB Insights",
+                "PitchBook",
+                "Crunchbase",
+                "Industry Reports"
+              ],
+              "peer_companies_analyzed": 50,
+              "data_freshness": "Current industry data",
+              "confidence_level": 85
+            },
+            "metadata": {
+              "analysis_date": "2025-09-21T11:37:16.901369",
+              "benchmarking_scope": "Artificial Intelligence - Series A",
+              "metrics_analyzed": 8,
+              "benchmark_version": "1.0"
+            }
+          },
+          "executive_summary": {
+            "overall_recommendation": "SECOND_LOOK",
+            "success_probability": 70,
+            "industry_ranking": 50,
+            "key_strengths": [
+              "Strong technical team",
+              "Growing market opportunity",
+              "Solid financial metrics"
+            ],
+            "key_risks": [
+              "Competitive landscape",
+              "Market timing",
+              "Execution challenges"
+            ],
+            "investment_highlights": [
+              "Predicted 70% success probability",
+              "Industry ranking: 50th percentile",
+              "Recommendation: SECOND_LOOK"
+            ],
+            "next_steps": []
+          },
+          "processing_summary": {
+            "start_time": "2025-09-21T11:34:07.616904",
+            "components_completed": 2,
+            "errors_encountered": [
+              "Predictive analytics failed: Invalid JSON response from AI model: Expecting value: line 1 column 1 (char 0)"
+            ],
+            "end_time": "2025-09-21T11:37:16.901960",
+            "success_rate": 66.66666666666666
+          },
+          "metadata": {
+            "company_name": "Sia",
+            "industry_sector": "Artificial Intelligence",
+            "analysis_scope": "Advanced Analytics Suite",
+            "investor_type": "VC",
+            "analysis_date": "2025-09-21T11:37:16.901970",
+            "data_sources": [
+              "Historical Data",
+              "Current Metrics",
+              "Industry Benchmarks"
+            ],
+            "analytics_version": "1.0"
+          }
+        }
+      },
+      "visualizations": {
+        "status": "success",
+        "data": {
+          "interactive_charts": {
+            "radar": {
+              "chart_config": {
+                "chart_type": "radar",
+                "data": {
+                  "financial_health": 75.0,
+                  "market_potential": 82.0,
+                  "team_strength": 78.0,
+                  "technology_score": 85.0,
+                  "risk_level": 65.0
+                },
+                "config": {
+                  "responsive": true
+                },
+                "error": "JSON parsing failed: Expecting value: line 106 column 20 (char 2710)"
+              },
+              "data_points": {
+                "financial_health": 75.0,
+                "market_potential": 82.0,
+                "team_strength": 78.0,
+                "technology_score": 85.0,
+                "risk_level": 65.0
+              },
+              "styling": {
+                "theme": "professional",
+                "color_palette": [
+                  "#2E86C1",
+                  "#28B463",
+                  "#F39C12",
+                  "#E74C3C",
+                  "#8E44AD"
+                ],
+                "responsive": true,
+                "animations": true
+              },
+              "real_time_updates": {
+                "enabled": true,
+                "refresh_interval": 30000,
+                "auto_scale": true,
+                "transition_duration": 750
+              },
+              "metadata": {
+                "chart_type": "radar",
+                "time_period": "3Y",
+                "generated_at": "2025-09-21T11:34:20.619178",
+                "data_count": 5
+              }
+            },
+            "financial": {
+              "chart_config": {
+                "type": "radar",
+                "data": {
+                  "labels": [
+                    "Financial Health",
+                    "Market Potential",
+                    "Team Strength",
+                    "Technology Score",
+                    "Risk Level"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "Current Startup Scores",
+                      "data": [
+                        75.0,
+                        82.0,
+                        78.0,
+                        85.0,
+                        65.0
+                      ],
+                      "backgroundColor": "rgba(33, 150, 243, 0.4)",
+                      "borderColor": "rgba(33, 150, 243, 1)",
+                      "pointBackgroundColor": "rgba(33, 150, 243, 1)",
+                      "pointBorderColor": "#fff",
+                      "pointHoverBackgroundColor": "#fff",
+                      "pointHoverBorderColor": "rgba(33, 150, 243, 1)",
+                      "borderWidth": 2,
+                      "pointRadius": 5,
+                      "pointHoverRadius": 7,
+                      "fill": true
+                    },
+                    {
+                      "label": "Industry Benchmark / Target",
+                      "data": [
+                        75.0,
+                        75.0,
+                        75.0,
+                        75.0,
+                        75.0
+                      ],
+                      "backgroundColor": "rgba(255, 152, 0, 0.2)",
+                      "borderColor": "rgba(255, 152, 0, 0.8)",
+                      "pointBackgroundColor": "rgba(255, 152, 0, 0.8)",
+                      "pointBorderColor": "#fff",
+                      "pointHoverBackgroundColor": "#fff",
+                      "pointHoverBorderColor": "rgba(255, 152, 0, 0.8)",
+                      "borderWidth": 2,
+                      "pointRadius": 0,
+                      "pointHoverRadius": 0,
+                      "fill": true
+                    }
+                  ]
+                },
+                "options": {
+                  "responsive": true,
+                  "maintainAspectRatio": false,
+                  "plugins": {
+                    "title": {
+                      "display": true,
+                      "text": "Startup Performance Analysis: Key Metric Scores",
+                      "font": {
+                        "size": 18,
+                        "weight": "bold"
+                      },
+                      "color": "#333333"
+                    },
+                    "legend": {
+                      "display": true,
+                      "position": "bottom",
+                      "labels": {
+                        "font": {
+                          "size": 12
+                        },
+                        "color": "#555555",
+                        "boxWidth": 20
+                      }
+                    },
+                    "tooltip": {
+                      "backgroundColor": "rgba(0,0,0,0.7)",
+                      "titleFont": {
+                        "size": 14,
+                        "weight": "bold"
+                      },
+                      "bodyFont": {
+                        "size": 12
+                      },
+                      "padding": 10,
+                      "borderColor": "#ffffff",
+                      "borderWidth": 1,
+                      "callbacks": {
+                        "label": "function(context) { let label = context.dataset.label || ''; if (label) { label += ': '; } label += Math.round(context.raw * 10) / 10 + '%'; return label; }",
+                        "title": "function(context) { return context[0].label; }"
+                      }
+                    },
+                    "zoom": {
+                      "pan": {
+                        "enabled": false
+                      },
+                      "zoom": {
+                        "wheel": {
+                          "enabled": false
+                        },
+                        "pinch": {
+                          "enabled": false
+                        },
+                        "mode": "xy"
+                      }
+                    }
+                  },
+                  "scales": {
+                    "r": {
+                      "angleLines": {
+                        "display": true,
+                        "color": "rgba(0,0,0,0.1)"
+                      },
+                      "grid": {
+                        "circular": true,
+                        "color": "rgba(0,0,0,0.15)"
+                      },
+                      "pointLabels": {
+                        "font": {
+                          "size": 13,
+                          "weight": "bold"
+                        },
+                        "color": "#444444"
+                      },
+                      "ticks": {
+                        "beginAtZero": true,
+                        "min": 0,
+                        "max": 100,
+                        "stepSize": 20,
+                        "backdropColor": "rgba(255,255,255,0.75)",
+                        "color": "#666666",
+                        "font": {
+                          "size": 10
+                        },
+                        "callback": "function(value) { return value + '%'; }"
+                      }
+                    }
+                  },
+                  "animation": {
+                    "duration": 1500,
+                    "easing": "easeInOutQuart",
+                    "delay": 0,
+                    "from": "start",
+                    "to": "end",
+                    "loop": false
+                  },
+                  "hover": {
+                    "mode": "nearest",
+                    "intersect": true,
+                    "animationDuration": 400
+                  }
+                }
+              },
+              "data_points": {
+                "financial_health": 75.0,
+                "market_potential": 82.0,
+                "team_strength": 78.0,
+                "technology_score": 85.0,
+                "risk_level": 65.0
+              },
+              "styling": {
+                "theme": "professional",
+                "color_palette": [
+                  "#2E86C1",
+                  "#28B463",
+                  "#F39C12",
+                  "#E74C3C",
+                  "#8E44AD"
+                ],
+                "responsive": true,
+                "animations": true
+              },
+              "real_time_updates": {
+                "enabled": true,
+                "refresh_interval": 30000,
+                "auto_scale": true,
+                "transition_duration": 750
+              },
+              "metadata": {
+                "chart_type": "financial",
+                "time_period": "3Y",
+                "generated_at": "2025-09-21T11:34:44.202350",
+                "data_count": 5
+              }
+            },
+            "trend": {
+              "chart_config": {
+                "type": "line",
+                "data": {
+                  "labels": [],
+                  "datasets": []
+                },
+                "options": {
+                  "responsive": true,
+                  "maintainAspectRatio": false,
+                  "plugins": {
+                    "title": {
+                      "display": true,
+                      "text": "Startup Performance Trends (3-Year Analysis)",
+                      "font": {
+                        "size": 20,
+                        "weight": "bold",
+                        "family": "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif"
+                      },
+                      "color": "#333"
+                    },
+                    "tooltip": {
+                      "mode": "index",
+                      "intersect": false,
+                      "backgroundColor": "rgba(0, 0, 0, 0.7)",
+                      "titleFont": {
+                        "size": 14,
+                        "weight": "bold"
+                      },
+                      "bodyFont": {
+                        "size": 12
+                      },
+                      "padding": 10,
+                      "boxPadding": 5,
+                      "callbacks": {
+                        "title": "function(context) { const date = new Date(context[0].parsed.x); return date.toLocaleString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }); }",
+                        "label": "function(context) { let label = context.dataset.label || ''; if (label) { label += ': '; } if (context.parsed.y !== null) { label += context.parsed.y.toFixed(1) + ' %'; } return label; }"
+                      }
+                    },
+                    "legend": {
+                      "display": true,
+                      "position": "bottom",
+                      "labels": {
+                        "font": {
+                          "size": 12,
+                          "family": "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif"
+                        },
+                        "color": "#555"
+                      }
+                    },
+                    "zoom": {
+                      "pan": {
+                        "enabled": true,
+                        "mode": "x",
+                        "threshold": 5
+                      },
+                      "zoom": {
+                        "wheel": {
+                          "enabled": true
+                        },
+                        "pinch": {
+                          "enabled": true
+                        },
+                        "mode": "x"
+                      },
+                      "limits": {
+                        "x": {
+                          "min": "original",
+                          "max": "original"
+                        }
+                      }
+                    }
+                  },
+                  "scales": {
+                    "x": {
+                      "type": "time",
+                      "time": {
+                        "unit": "month",
+                        "tooltipFormat": "MMM YYYY",
+                        "displayFormats": {
+                          "month": "MMM YYYY"
+                        },
+                        "parser": "YYYY-MM-DDTHH:mm:ss.sssZ"
+                      },
+                      "title": {
+                        "display": true,
+                        "text": "Date",
+                        "font": {
+                          "size": 14,
+                          "weight": "bold"
+                        },
+                        "color": "#555"
+                      },
+                      "grid": {
+                        "display": true,
+                        "drawBorder": false,
+                        "color": "rgba(0,0,0,0.05)"
+                      },
+                      "ticks": {
+                        "color": "#777",
+                        "font": {
+                          "size": 11
+                        }
+                      }
+                    },
+                    "y": {
+                      "beginAtZero": true,
+                      "max": 100,
+                      "title": {
+                        "display": true,
+                        "text": "Score (0-100)",
+                        "font": {
+                          "size": 14,
+                          "weight": "bold"
+                        },
+                        "color": "#555"
+                      },
+                      "grid": {
+                        "display": true,
+                        "drawBorder": false,
+                        "color": "rgba(0,0,0,0.1)"
+                      },
+                      "ticks": {
+                        "color": "#777",
+                        "font": {
+                          "size": 11
+                        },
+                        "callback": "function(value) { return value + ' %'; }"
+                      }
+                    }
+                  },
+                  "animation": {
+                    "duration": 1500,
+                    "easing": "easeInOutQuad",
+                    "delay": 0
+                  },
+                  "elements": {
+                    "line": {
+                      "borderWidth": 2,
+                      "tension": 0.3
+                    },
+                    "point": {
+                      "radius": 4,
+                      "hoverRadius": 6,
+                      "backgroundColor": "white",
+                      "borderWidth": 2
+                    }
+                  },
+                  "hover": {
+                    "mode": "nearest",
+                    "intersect": false,
+                    "animationDuration": 400
+                  },
+                  "parsing": false,
+                  "normalized": true
+                }
+              },
+              "data_points": {
+                "financial_health": 75.0,
+                "market_potential": 82.0,
+                "team_strength": 78.0,
+                "technology_score": 85.0,
+                "risk_level": 65.0
+              },
+              "styling": {
+                "theme": "professional",
+                "color_palette": [
+                  "#2E86C1",
+                  "#28B463",
+                  "#F39C12",
+                  "#E74C3C",
+                  "#8E44AD"
+                ],
+                "responsive": true,
+                "animations": true
+              },
+              "real_time_updates": {
+                "enabled": true,
+                "refresh_interval": 30000,
+                "auto_scale": true,
+                "transition_duration": 750
+              },
+              "metadata": {
+                "chart_type": "trend",
+                "time_period": "3Y",
+                "generated_at": "2025-09-21T11:35:34.973487",
+                "data_count": 5
+              }
+            },
+            "heatmap": {
+              "chart_config": {
+                "chartConfiguration": {
+                  "type": "heatmap",
+                  "title": {
+                    "text": "Startup Performance Analysis: 3-Year Strategic Health Heatmap",
+                    "font": {
+                      "size": 24,
+                      "weight": "bold",
+                      "family": "Arial, sans-serif"
+                    },
+                    "color": "#333333"
+                  },
+                  "description": "Visualizing the evolution of key startup performance metrics over the past three years. Darker greens indicate higher positive scores (e.g., financial health, tech score), while darker reds indicate higher risk levels. Cells are annotated with their precise score.",
+                  "options": {
+                    "maintainAspectRatio": false,
+                    "responsive": true,
+                    "animation": {
+                      "duration": 1000,
+                      "easing": "easeInOutQuad"
+                    },
+                    "scales": {
+                      "x": {
+                        "type": "category",
+                        "labels": [
+                          "Year 1",
+                          "Year 2",
+                          "Year 3"
+                        ],
+                        "title": {
+                          "display": true,
+                          "text": "Time Period",
+                          "font": {
+                            "size": 16,
+                            "weight": "bold"
+                          },
+                          "color": "#555555"
+                        },
+                        "grid": {
+                          "display": true,
+                          "color": "#e0e0e0"
+                        },
+                        "ticks": {
+                          "font": {
+                            "size": 12
+                          },
+                          "color": "#666666"
+                        }
+                      },
+                      "y": {
+                        "type": "category",
+                        "labels": [
+                          "Financial Health",
+                          "Market Potential",
+                          "Team Strength",
+                          "Technology Score",
+                          "Risk Level"
+                        ],
+                        "title": {
+                          "display": true,
+                          "text": "Performance Metric",
+                          "font": {
+                            "size": 16,
+                            "weight": "bold"
+                          },
+                          "color": "#555555"
+                        },
+                        "grid": {
+                          "display": true,
+                          "color": "#e0e0e0"
+                        },
+                        "ticks": {
+                          "font": {
+                            "size": 12
+                          },
+                          "color": "#666666"
+                        }
+                      }
+                    },
+                    "plugins": {
+                      "legend": {
+                        "display": true,
+                        "position": "bottom",
+                        "labels": {
+                          "boxWidth": 20,
+                          "font": {
+                            "size": 12
+                          },
+                          "color": "#666666"
+                        }
+                      },
+                      "tooltip": {
+                        "enabled": true,
+                        "backgroundColor": "rgba(0,0,0,0.8)",
+                        "titleFont": {
+                          "size": 14,
+                          "weight": "bold"
+                        },
+                        "bodyFont": {
+                          "size": 12
+                        },
+                        "callbacks": {
+                          "title": "function(context) { return 'Metric: ' + context[0].dataset.label + ' | ' + context[0].label; }",
+                          "label": "function(context) { return 'Score: ' + context.raw.toFixed(1); }"
+                        }
+                      }
+                    }
+                  },
+                  "data": {
+                    "labels": [
+                      "Year 1",
+                      "Year 2",
+                      "Year 3"
+                    ],
+                    "datasets": [
+                      {
+                        "label": "Financial Health",
+                        "data": [
+                          58.0,
+                          67.0,
+                          75.0
+                        ],
+                        "borderColor": "rgba(0,0,0,0.1)",
+                        "borderWidth": 1
+                      },
+                      {
+                        "label": "Market Potential",
+                        "data": [
+                          65.0,
+                          74.0,
+                          82.0
+                        ],
+                        "borderColor": "rgba(0,0,0,0.1)",
+                        "borderWidth": 1
+                      },
+                      {
+                        "label": "Team Strength",
+                        "data": [
+                          60.0,
+                          70.0,
+                          78.0
+                        ],
+                        "borderColor": "rgba(0,0,0,0.1)",
+                        "borderWidth": 1
+                      },
+                      {
+                        "label": "Technology Score",
+                        "data": [
+                          68.0,
+                          77.0,
+                          85.0
+                        ],
+                        "borderColor": "rgba(0,0,0,0.1)",
+                        "borderWidth": 1
+                      },
+                      {
+                        "label": "Risk Level",
+                        "data": [
+                          82.0,
+                          72.0,
+                          65.0
+                        ],
+                        "borderColor": "rgba(0,0,0,0.1)",
+                        "borderWidth": 1
+                      }
+                    ]
+                  }
+                },
+                "styling": {
+                  "corporateColorPalette": [
+                    "#1f77b4",
+                    "#ff7f0e",
+                    "#2ca02c",
+                    "#d62728",
+                    "#9467bd"
+                  ],
+                  "heatmapColorGradient": {
+                    "lowScoreColor": "#FFDADA",
+                    "midScoreColor": "#FFFFCC",
+                    "highScoreColor": "#DAFAD0",
+                    "riskLowColor": "#DAFAD0",
+                    "riskMidColor": "#FFFFCC",
+                    "riskHighColor": "#FFDADA",
+                    "gradientSteps": 100,
+                    "legendTitle": "Performance Score"
+                  },
+                  "fontFamily": "Arial, sans-serif",
+                  "textColor": "#333333",
+                  "gridLineColor": "#e0e0e0",
+                  "backgroundColor": "#FFFFFF"
+                },
+                "interaction": {
+                  "zoom": {
+                    "enabled": true,
+                    "mode": "x",
+                    "drag": {
+                      "enabled": true
+                    },
+                    "limits": {
+                      "x": {
+                        "min": "original",
+                        "max": "original"
+                      }
+                    },
+                    "onZoomComplete": "function({chart}) { console.log('Zoom completed:', chart); }"
+                  },
+                  "pan": {
+                    "enabled": true,
+                    "mode": "x"
+                  },
+                  "filtering": {
+                    "enabled": true,
+                    "options": [
+                      "Financial Health",
+                      "Market Potential",
+                      "Team Strength",
+                      "Technology Score",
+                      "Risk Level"
+                    ],
+                    "defaultFilter": "All",
+                    "onFilterChange": "function(selectedMetric) { console.log('Filtered by:', selectedMetric); }"
+                  },
+                  "tooltips": {
+                    "enabled": true,
+                    "mode": "nearest",
+                    "intersect": false,
+                    "position": "average"
+                  }
+                },
+                "realTime": {
+                  "enabled": false,
+                  "updateIntervalMs": 5000,
+                  "animationDurationMs": 800,
+                  "animationEasing": "linear",
+                  "onDataUpdate": "function(newData) { console.log('Chart data updated:', newData); }"
+                },
+                "responsive": {
+                  "enabled": true,
+                  "maintainAspectRatio": false,
+                  "resizeDelayMs": 150
+                },
+                "heatmapSpecific": {
+                  "colorMappingFunction": "function(score, metricType) { /* Custom function for color calculation */ if (metricType === 'risk_level') { return getRiskColor(score); } else { return getPerformanceColor(score); } }",
+                  "cellAnnotations": {
+                    "enabled": true,
+                    "font": {
+                      "size": 10,
+                      "weight": "bold",
+                      "color": "#333333"
+                    },
+                    "position": "center",
+                    "formatter": "function(value) { return value.toFixed(0); }",
+                    "hideThreshold": 50,
+                    "onHoverShowAlways": true
+                  },
+                  "clusteringIndicators": {
+                    "enabled": false,
+                    "type": "border",
+                    "color": "rgba(0,0,0,0.5)",
+                    "width": 2,
+                    "threshold": 10,
+                    "description": "Highlights cells where the score significantly deviates from the previous period (e.g., change > 10 points), indicating potential shifts or 'clusters' of performance change."
+                  },
+                  "legendGradient": {
+                    "display": true,
+                    "position": "right",
+                    "width": "20px",
+                    "height": "80%",
+                    "labels": [
+                      "Low Score",
+                      "High Score"
+                    ],
+                    "riskLabels": [
+                      "Low Risk",
+                      "High Risk"
+                    ]
+                  }
+                }
+              },
+              "data_points": {
+                "financial_health": 75.0,
+                "market_potential": 82.0,
+                "team_strength": 78.0,
+                "technology_score": 85.0,
+                "risk_level": 65.0
+              },
+              "styling": {
+                "theme": "professional",
+                "color_palette": [
+                  "#2E86C1",
+                  "#28B463",
+                  "#F39C12",
+                  "#E74C3C",
+                  "#8E44AD"
+                ],
+                "responsive": true,
+                "animations": true
+              },
+              "real_time_updates": {
+                "enabled": true,
+                "refresh_interval": 30000,
+                "auto_scale": true,
+                "transition_duration": 750
+              },
+              "metadata": {
+                "chart_type": "heatmap",
+                "time_period": "3Y",
+                "generated_at": "2025-09-21T11:36:02.349074",
+                "data_count": 5
+              }
+            }
+          },
+          "investor_presentations": {
+            "VC_pitch": {
+              "slides": [
+                {
+                  "slide_number": 1,
+                  "title": "Executive Summary: Sia - AI-Powered Enterprise Transformation",
+                  "subtitle": "Unlocking Unprecedented Efficiency & Growth for Global Enterprises",
+                  "main_content_points": [
+                    "**Visionary Enterprise AI:** Sia delivers a unified B2B SaaS platform for intelligent automation and predictive insights.",
+                    "**Explosive Growth & Traction:** $2.5M Current Revenue (212.5% YoY Growth), 15,000 Monthly Active Users.",
+                    "**Exceptional Unit Economics:** 78% Gross Margin, 14:1 LTV:CAC ($12,000 LTV vs. $850 CAC), 5% Churn, 72 NPS.",
+                    "**Massive Market Opportunity:** Targeting an $8B Serviceable Addressable Market (SAM) growing at 25% annually.",
+                    "**Proven Team:** Experienced founders and a strong technical team with a track record of innovation and execution."
+                  ],
+                  "key_metrics": {
+                    "Current ARR": "$2.5M",
+                    "Revenue Growth": "212.5% YoY",
+                    "Gross Margin": "78%",
+                    "LTV:CAC Ratio": "14:1",
+                    "SAM": "$8 Billion"
+                  },
+                  "data_visualizations_needed": [
+                    "Sia Logo",
+                    "Key metrics callouts (e.g., Revenue, Growth, LTV:CAC)"
+                  ],
+                  "speaker_notes": "Good morning/afternoon, everyone. We are Sia, and we are at the forefront of the enterprise AI revolution. Our platform is empowering businesses to not just adopt AI, but truly leverage it for transformative efficiency and growth. In just a short time, we've demonstrated explosive growth, backed by exceptional unit economics, all within a massive and rapidly expanding market. We're led by a proven team, and we're here today to share how we plan to accelerate our trajectory and capture significant market share."
+                },
+                {
+                  "slide_number": 2,
+                  "title": "The Problem: The Enterprise AI Gap",
+                  "subtitle": "Businesses Struggle to Harness the Full Potential of AI, Leading to Inefficiency and Missed Opportunities",
+                  "main_content_points": [
+                    "**Complexity & Lack of Expertise:** Enterprises find AI implementation daunting, lacking in-house talent and integration capabilities.",
+                    "**Fragmented Solutions:** Existing tools are often siloed, failing to provide holistic insights or end-to-end automation across business functions.",
+                    "**Data Overload, Insights Deficit:** Companies are drowning in data, yet struggle to extract actionable intelligence crucial for strategic decision-making.",
+                    "**Competitive Pressure:** Businesses that fail to effectively adopt AI risk falling behind competitors who are leveraging advanced analytics and automation."
+                  ],
+                  "key_metrics": {},
+                  "data_visualizations_needed": [
+                    "Infographic or icon representing complexity, fragmented systems, or a data 'firehose'"
+                  ],
+                  "speaker_notes": "The promise of AI for enterprises is huge, but the reality is often a struggle. Many businesses face a significant 'AI Gap.' They grapple with the sheer complexity of deploying AI, often lacking the specialized talent and infrastructure required. This leads to a patchwork of fragmented point solutions that don't communicate, creating new silos instead of breaking them down. Ultimately, enterprises are collecting vast amounts of data but struggling to turn it into actionable insights. This isn't just an operational challenge; it's a competitive one, as companies that can't effectively leverage AI will inevitably be outmaneuvered."
+                },
+                {
+                  "slide_number": 3,
+                  "title": "Our Solution: Sia - Intelligent Automation & Predictive Insights",
+                  "subtitle": "A Unified, Scalable AI Platform for Enterprise Excellence",
+                  "main_content_points": [
+                    "**Unified AI Platform:** Sia provides a single pane of glass for integrating, analyzing, and acting on enterprise data, simplifying AI adoption.",
+                    "**Actionable Predictive Insights:** Our proprietary algorithms deliver real-time, foresightful intelligence, enabling proactive decision-making across departments.",
+                    "**Automated Workflows & Processes:** Transform manual, repetitive tasks into intelligent, automated sequences, freeing up human capital.",
+                    "**Modular & Integrable:** Designed for seamless integration with existing enterprise systems (CRMs, ERPs, data lakes) and customizable to specific industry needs."
+                  ],
+                  "key_metrics": {
+                    "NPS": "72"
+                  },
+                  "data_visualizations_needed": [
+                    "High-fidelity product UI screenshot showing key features",
+                    "Simple architecture diagram illustrating platform integration"
+                  ],
+                  "speaker_notes": "Sia is the answer to the Enterprise AI Gap. We offer a unified, scalable AI platform that brings together intelligent automation and predictive insights. Our solution eliminates complexity by providing a single point of access for all AI-driven operations. We don't just process data; we generate truly actionable predictive insights that empower enterprises to make proactive, strategic decisions. Our platform automates repetitive workflows, driving efficiency gains, and it's designed from the ground up to be modular and seamlessly integrate with a company's existing tech stack. This leads to high user satisfaction, evidenced by our NPS of 72."
+                },
+                {
+                  "slide_number": 4,
+                  "title": "Market Opportunity & Size: A Trillion-Dollar Market for Enterprise AI",
+                  "subtitle": "Capturing Significant Share in a Rapidly Expanding Landscape",
+                  "main_content_points": [
+                    "**Vast Total Addressable Market (TAM):** The broader Enterprise AI market stands at an estimated $50 Billion, signifying immense potential.",
+                    "**Focus on a High-Growth SAM:** Our Serviceable Addressable Market (SAM) is $8 Billion, expanding at an impressive 25% CAGR.",
+                    "**Immense Room for Growth:** With only 0.002% current market share, Sia is poised to capture significant value as a leader in this burgeoning sector.",
+                    "**Targeting High-Value Enterprises:** We focus on large enterprises with substantial budgets, yielding high LTV and strategic partnerships."
+                  ],
+                  "key_metrics": {
+                    "TAM": "$50 Billion",
+                    "SAM": "$8 Billion",
+                    "Market Growth Rate": "25% CAGR",
+                    "Current Market Share": "0.002%"
+                  },
+                  "data_visualizations_needed": [
+                    "Bar chart: TAM vs. SAM (illustrating scale)",
+                    "Line chart: Enterprise AI Market Growth Rate (25% CAGR)"
+                  ],
+                  "charts_data": [
+                    {
+                      "type": "bar",
+                      "title": "Market Opportunity Breakdown",
+                      "x_axis_label": "Market Segment",
+                      "y_axis_label": "Market Value (USD)",
+                      "data": [
+                        {
+                          "label": "Total Addressable Market (TAM)",
+                          "value": 50000000000
+                        },
+                        {
+                          "label": "Serviceable Addressable Market (SAM)",
+                          "value": 8000000000
+                        }
+                      ],
+                      "options": {
+                        "currency": true,
+                        "show_values": true
+                      }
+                    },
+                    {
+                      "type": "line",
+                      "title": "Enterprise AI Market Growth Rate",
+                      "x_axis_label": "Year",
+                      "y_axis_label": "Growth Rate (%)",
+                      "data": [
+                        {
+                          "year": "Current",
+                          "value": 25
+                        }
+                      ],
+                      "options": {
+                        "trend_indicator": true,
+                        "forecast_label": "25% CAGR"
+                      }
+                    }
+                  ],
+                  "speaker_notes": "The market for Enterprise AI is truly colossal. We're operating within a Total Addressable Market of $50 Billion. More specifically, our immediate focus is on a Serviceable Addressable Market of $8 Billion, which is not only substantial but also growing incredibly fast at a 25% compound annual growth rate. Our current market share is just 0.002%, which might seem small, but it highlights the immense runway for growth and market capture ahead of us. We are strategically targeting large enterprises, ensuring high-value contracts and a strong foundation for future expansion."
+                },
+                {
+                  "slide_number": 5,
+                  "title": "Business Model & Revenue Streams: Proven B2B SaaS for High-Margin Growth",
+                  "subtitle": "Driving Predictable, Recurring Revenue Through Enterprise Subscriptions",
+                  "main_content_points": [
+                    "**Recurring SaaS Subscriptions:** Our core business model is a predictable, recurring B2B SaaS subscription based on usage and feature tiers.",
+                    "**High Gross Margins:** We achieve an impressive 78% gross margin, demonstrating strong unit economics and cost efficiency.",
+                    "**Excellent LTV:CAC Ratio:** A 14:1 Lifetime Value to Customer Acquisition Cost ratio ($12,000 LTV vs. $850 CAC) signifies highly profitable customer relationships.",
+                    "**Land-and-Expand Strategy:** We initiate with core solutions, then expand within enterprise clients as they realize value, increasing contract size over time."
+                  ],
+                  "key_metrics": {
+                    "Current Revenue": "$2.5M ARR",
+                    "Gross Margin": "78%",
+                    "LTV:CAC Ratio": "14:1",
+                    "Churn Rate": "5% (Annual)"
+                  },
+                  "data_visualizations_needed": [
+                    "Infographic demonstrating tiered pricing/subscription model",
+                    "Callout for LTV:CAC ratio"
+                  ],
+                  "speaker_notes": "Our business model is built on the highly attractive foundation of B2B SaaS. We generate predictable, recurring revenue through enterprise-grade subscriptions. What makes this particularly compelling are our financials: we operate with an exceptional 78% gross margin, showcasing our operational efficiency. Our customer economics are outstanding, with a Lifetime Value to Customer Acquisition Cost ratio of 14:1, meaning every dollar spent acquiring a customer returns 14 dollars over their lifetime. This, coupled with our low 5% annual churn, underscores the stickiness and profitability of our platform. Our strategy is simple yet powerful: land with a compelling solution, then expand within our enterprise accounts as they experience the transformative power of Sia."
+                },
+                {
+                  "slide_number": 6,
+                  "title": "Financial Performance & Projections: Explosive Growth with a Clear Path to Scale",
+                  "subtitle": "Validating Market Demand and Charting Future Milestones",
+                  "main_content_points": [
+                    "**Validated Hyper-Growth:** Achieved $2.5M in current annual revenue, representing 212.5% year-over-year growth.",
+                    "**Strong Operational Metrics:** Sustained low customer acquisition cost ($850), high customer lifetime value ($12,000), and excellent Net Promoter Score (72).",
+                    "**Disciplined Capital Management:** Current burn rate of $180K/month provides 18 months of runway, demonstrating efficient use of capital.",
+                    "**Aggressive Revenue Projections:** Projecting to reach over $10M ARR within the next 18-24 months by expanding product lines and market reach."
+                  ],
+                  "key_metrics": {
+                    "Current Revenue": "$2.5M",
+                    "YoY Growth Rate": "212.5%",
+                    "LTV:CAC": "14:1",
+                    "Burn Rate": "$180K/month",
+                    "Runway": "18 months"
+                  },
+                  "data_visualizations_needed": [
+                    "Line chart: Historical Revenue Growth (2021-Present) and Projected Revenue (Next 24 months)",
+                    "Bar chart: LTV vs. CAC",
+                    "KPI Dashboard snippet (Churn, NPS, MAU)"
+                  ],
+                  "charts_data": [
+                    {
+                      "type": "line",
+                      "title": "Historical & Projected Revenue Growth",
+                      "x_axis_label": "Period",
+                      "y_axis_label": "Revenue (USD)",
+                      "data": [
+                        {
+                          "label": "2021 Q1",
+                          "value": 100000
+                        },
+                        {
+                          "label": "2021 Q2",
+                          "value": 250000
+                        },
+                        {
+                          "label": "2021 Q3",
+                          "value": 400000
+                        },
+                        {
+                          "label": "2021 Q4",
+                          "value": 650000
+                        },
+                        {
+                          "label": "2022 Q1",
+                          "value": 800000
+                        },
+                        {
+                          "label": "2022 Q2",
+                          "value": 1200000
+                        },
+                        {
+                          "label": "2022 Q3",
+                          "value": 1800000
+                        },
+                        {
+                          "label": "Current (Q4 2022/Q1 2023)",
+                          "value": 2500000
+                        },
+                        {
+                          "label": "Projection Q4 2023",
+                          "value": 5000000
+                        },
+                        {
+                          "label": "Projection Q4 2024",
+                          "value": 12000000
+                        }
+                      ],
+                      "options": {
+                        "currency": true,
+                        "show_markers": true,
+                        "split_at_index": 7,
+                        "split_label": "Current"
+                      }
+                    },
+                    {
+                      "type": "bar",
+                      "title": "LTV vs. CAC",
+                      "x_axis_label": "Metric",
+                      "y_axis_label": "Value (USD)",
+                      "data": [
+                        {
+                          "label": "LTV",
+                          "value": 12000
+                        },
+                        {
+                          "label": "CAC",
+                          "value": 850
+                        }
+                      ],
+                      "options": {
+                        "currency": true,
+                        "show_values": true
+                      }
+                    }
+                  ],
+                  "speaker_notes": "Our financial performance speaks for itself. We've achieved a remarkable $2.5M in current revenue, representing an astounding 212.5% year-over-year growth. This isn't just top-line growth; it's supported by strong underlying operational metrics like our phenomenal 14:1 LTV:CAC ratio. We maintain a healthy burn rate of $180,000 per month, giving us a solid 18-month runway to execute our next phase of growth. With this strong foundation, we have clear, aggressive projections to reach over $10M ARR within the next 18-24 months, driven by expanding our product capabilities and aggressively entering new market segments."
+                },
+                {
+                  "slide_number": 7,
+                  "title": "Competitive Analysis & Positioning: Differentiated AI, Outperforming the Competition",
+                  "subtitle": "Uniquely Positioned for Enterprise Value in a Dynamic AI Landscape",
+                  "main_content_points": [
+                    "**Unified Platform vs. Point Solutions:** Sia offers a comprehensive, integrated platform, eliminating the 'frankensystem' approach of many competitors.",
+                    "**Proprietary AI & ML:** Our advanced, proprietary algorithms deliver superior predictive accuracy and automation efficiency.",
+                    "**Enterprise-Grade Focus:** Built from the ground up for the specific needs of large enterprises – security, scalability, and customizability.",
+                    "**Exceptional Customer Satisfaction:** Our Net Promoter Score of 72 reflects a superior user experience and product efficacy compared to alternatives."
+                  ],
+                  "key_metrics": {
+                    "Competitive Position": "Strong",
+                    "NPS": "72"
+                  },
+                  "data_visualizations_needed": [
+                    "2x2 Matrix: X-axis (Ease of Integration), Y-axis (AI Sophistication). Plot Sia strongly against competitors (e.g., Salesforce Einstein, IBM Watson, Niche AI tools).",
+                    "Key Feature Comparison table"
+                  ],
+                  "charts_data": [
+                    {
+                      "type": "scatter",
+                      "title": "Competitive Positioning: AI Platform Differentiators",
+                      "x_axis_label": "Ease of Integration / Customization",
+                      "y_axis_label": "AI Sophistication / Predictive Accuracy",
+                      "data": [
+                        {
+                          "label": "Sia",
+                          "x": 9,
+                          "y": 9,
+                          "size": 1.5,
+                          "color": "blue"
+                        },
+                        {
+                          "label": "Generic AI Cloud Service",
+                          "x": 6,
+                          "y": 7,
+                          "size": 1.0,
+                          "color": "red"
+                        },
+                        {
+                          "label": "Niche Point Solution",
+                          "x": 7,
+                          "y": 4,
+                          "size": 0.8,
+                          "color": "green"
+                        },
+                        {
+                          "label": "Legacy BI/Analytics",
+                          "x": 3,
+                          "y": 2,
+                          "size": 0.5,
+                          "color": "gray"
+                        }
+                      ],
+                      "options": {
+                        "x_min": 0,
+                        "x_max": 10,
+                        "y_min": 0,
+                        "y_max": 10,
+                        "legend_position": "bottom-right"
+                      }
+                    }
+                  ],
+                  "speaker_notes": "In a rapidly evolving AI landscape, Sia stands out. Our competitive advantage stems from providing a truly unified AI platform, rather than the fragmented, point solutions offered by many competitors. This enables seamless integration and comprehensive insights, which others struggle to match. We leverage proprietary AI and Machine Learning algorithms that deliver superior predictive accuracy and automation, giving our clients a distinct edge. We are laser-focused on enterprise-grade solutions, building for the scalability, security, and customizability that large organizations demand. Our exceptional NPS of 72 is a testament to our product's efficacy and our strong competitive position in the market."
+                },
+                {
+                  "slide_number": 8,
+                  "title": "Investment Opportunity: Fueling Hyper-Growth & Market Leadership",
+                  "subtitle": "Seeking $10 Million to Accelerate Product Innovation and Market Expansion",
+                  "main_content_points": [
+                    "**Investment Ask:** Seeking a $10 Million Series A growth round to capitalize on our momentum and cement market leadership.",
+                    "**Product Development (40%):** Expand core AI capabilities, develop new industry-specific modules, and enhance platform scalability.",
+                    "**Sales & Marketing (30%):** Scale our go-to-market engine, expand into new strategic verticals, and grow our enterprise sales team.",
+                    "**Talent Acquisition (20%):** Recruit top-tier engineering, AI research, and customer success talent to support our ambitious roadmap.",
+                    "**Operational & Infrastructure (10%):** Strengthen our cloud infrastructure, security, and global operational capabilities for sustained growth."
+                  ],
+                  "key_metrics": {
+                    "Investment Ask": "$10 Million",
+                    "Target Milestones": "$10M+ ARR, 5 New Marquee Clients, 3 New Verticals"
+                  },
+                  "data_visualizations_needed": [
+                    "Pie chart: Breakdown of Use of Funds",
+                    "Timeline of anticipated milestones/achievements with funding"
+                  ],
+                  "charts_data": [
+                    {
+                      "type": "pie",
+                      "title": "Use of Funds Breakdown ($10M Ask)",
+                      "data": [
+                        {
+                          "label": "Product Development",
+                          "value": 40
+                        },
+                        {
+                          "label": "Sales & Marketing",
+                          "value": 30
+                        },
+                        {
+                          "label": "Talent Acquisition",
+                          "value": 20
+                        },
+                        {
+                          "label": "Operations & Infrastructure",
+                          "value": 10
+                        }
+                      ],
+                      "options": {
+                        "unit": "%",
+                        "show_percentages": true
+                      }
+                    }
+                  ],
+                  "speaker_notes": "We are seeking a $10 Million Series A growth round to fully capitalize on our current momentum and rapidly scale Sia into a dominant player in the Enterprise AI market. This capital is strategically allocated to accelerate our product innovation, allowing us to expand our AI capabilities and develop critical industry-specific modules. A significant portion will fuel our sales and marketing efforts, enabling us to broaden our market reach and onboard new marquee enterprise clients. We'll also invest heavily in attracting and retaining top-tier talent across engineering, AI research, and customer success. Finally, a portion will ensure our operational infrastructure can support hyper-growth, ensuring reliability and security. Our goal is to achieve over $10M ARR, secure at least 5 new marquee clients, and expand into 3 new industry verticals with this investment, setting us up for a compelling Series B within 18-24 months."
+                },
+                {
+                  "slide_number": 9,
+                  "title": "Our Team & Advisory Board: Visionary Leadership, Deep Expertise",
+                  "subtitle": "A Proven Group Driving Innovation and Execution in AI",
+                  "main_content_points": [
+                    "**Experienced Founders:** Our leadership brings extensive experience in AI/ML, B2B SaaS, and enterprise software development from leading tech companies.",
+                    "**Strong Technical Core:** 15 out of 25 employees comprise our engineering team, driving rapid product innovation and development.",
+                    "**Diverse Skill Sets:** A balanced team with expertise spanning AI research, product management, enterprise sales, and operational scale.",
+                    "**Strategic Advisory Board:** Complemented by industry veterans and AI luminaries providing guidance on market strategy and technological advancements."
+                  ],
+                  "key_metrics": {
+                    "Team Size": "25 employees",
+                    "Engineering Team": "15 employees"
+                  },
+                  "data_visualizations_needed": [
+                    "Headshots of 3-4 key founders/leadership team members with titles and 1-2 key achievements.",
+                    "Logos/Names of Advisory Board members."
+                  ],
+                  "speaker_notes": "At Sia, we understand that great companies are built by great teams. Our leadership comprises experienced founders with deep expertise in AI/ML, B2B SaaS, and scaling enterprise software, having worked at leading tech firms. We have a robust technical core, with 15 of our 25 employees dedicated to engineering, ensuring rapid product development and innovation. Our team's diversity in skill sets—from cutting-edge AI research to proven enterprise sales and operational scale—ensures we can execute on our vision. Furthermore, we are fortunate to be guided by a strategic advisory board composed of industry veterans and AI luminaries, providing invaluable insights and accelerating our path to market leadership."
+                },
+                {
+                  "slide_number": 10,
+                  "title": "Appendix: Supporting Data & Detailed Metrics",
+                  "subtitle": "A Deeper Dive into Sia's Performance and Projections",
+                  "main_content_points": [
+                    "**Detailed Historical Revenue:** Month-over-month revenue figures showcasing consistent growth since inception.",
+                    "**User Growth Trends:** Comprehensive data on Monthly Active User (MAU) expansion.",
+                    "**Funding History:** Overview of previous funding rounds and key milestones achieved.",
+                    "**Customer Testimonials & Logos:** Illustrative examples of client success and satisfaction.",
+                    "**Detailed Financial Projections:** Granular 3-year P&L forecasts (Revenue, Gross Profit, EBITDA)."
+                  ],
+                  "key_metrics": {
+                    "Revenue History": "Detailed monthly figures",
+                    "User Growth": "Detailed MAU figures",
+                    "Funding Rounds": "Dates & amounts"
+                  },
+                  "data_visualizations_needed": [
+                    "Line chart: Historical Revenue History (monthly)",
+                    "Line chart: Monthly Active User Growth",
+                    "Timeline/Table: Funding Rounds History",
+                    "Placeholder: Customer Logos / Testimonials"
+                  ],
+                  "charts_data": [
+                    {
+                      "type": "line",
+                      "title": "Historical Monthly Revenue Performance",
+                      "x_axis_label": "Month",
+                      "y_axis_label": "Revenue (USD)",
+                      "data": [
+                        {
+                          "label": "M1",
+                          "value": 100000
+                        },
+                        {
+                          "label": "M2",
+                          "value": 250000
+                        },
+                        {
+                          "label": "M3",
+                          "value": 400000
+                        },
+                        {
+                          "label": "M4",
+                          "value": 650000
+                        },
+                        {
+                          "label": "M5",
+                          "value": 800000
+                        },
+                        {
+                          "label": "M6",
+                          "value": 1200000
+                        },
+                        {
+                          "label": "M7",
+                          "value": 1800000
+                        },
+                        {
+                          "label": "M8",
+                          "value": 2500000
+                        }
+                      ],
+                      "options": {
+                        "currency": true,
+                        "show_markers": true
+                      }
+                    },
+                    {
+                      "type": "line",
+                      "title": "Monthly Active User Growth",
+                      "x_axis_label": "Month",
+                      "y_axis_label": "Users",
+                      "data": [
+                        {
+                          "label": "M1",
+                          "value": 500
+                        },
+                        {
+                          "label": "M2",
+                          "value": 1200
+                        },
+                        {
+                          "label": "M3",
+                          "value": 2500
+                        },
+                        {
+                          "label": "M4",
+                          "value": 4800
+                        },
+                        {
+                          "label": "M5",
+                          "value": 7500
+                        },
+                        {
+                          "label": "M6",
+                          "value": 10200
+                        },
+                        {
+                          "label": "M7",
+                          "value": 12800
+                        },
+                        {
+                          "label": "M8",
+                          "value": 15000
+                        }
+                      ],
+                      "options": {
+                        "show_markers": true
+                      }
+                    },
+                    {
+                      "type": "timeline",
+                      "title": "Funding Rounds History",
+                      "data": [
+                        {
+                          "date": "2022-01",
+                          "event": "Seed Round: $2M"
+                        },
+                        {
+                          "date": "2023-06",
+                          "event": "Series A Round: $10M"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "title": "Select Customer Logos",
+                      "description": "Placeholder for logos of key enterprise clients, demonstrating market adoption and trust.",
+                      "image_url": "placeholder_customer_logos.png"
+                    }
+                  ],
+                  "speaker_notes": "This appendix contains additional detailed data and supporting information that you might find useful for a deeper dive. We've included granular historical revenue and user growth charts, a summary of our past funding rounds, and placeholders for customer testimonials and logos. We are happy to provide detailed financial projections, including our 3-year P&L forecasts, and answer any specific questions you may have about our underlying metrics and performance after the presentation."
+                }
+              ],
+              "charts_data": {},
+              "speaker_notes": {},
+              "presentation_metadata": {
+                "investor_type": "VC",
+                "presentation_style": "pitch",
+                "slide_count": 10,
+                "estimated_duration": "20-30 minutes",
+                "generated_at": "2025-09-21T11:36:53.904409"
+              },
+              "formatting": {
+                "template": "professional_investor",
+                "color_scheme": "corporate_blue",
+                "font_family": "Arial, Helvetica",
+                "slide_dimensions": "16:9"
+              }
+            },
+            "Angel_pitch": {
+              "slides": [
+                {
+                  "slide_number": 1,
+                  "title": "Sia: Pioneering Enterprise AI Solutions",
+                  "subtitle": "Accelerating Business Intelligence with Advanced AI",
+                  "content_points": [
+                    "**Unlocking Enterprise Potential:** Sia delivers powerful B2B SaaS AI solutions, transforming complex data into actionable insights.",
+                    "**Exceptional Traction & Growth:** Achieved $2.5M in current revenue, demonstrating a remarkable 212.5% YoY growth.",
+                    "**Strong Unit Economics:** High gross margin (78%) and an impressive LTV:CAC ratio of 14:1 (LTV $12k / CAC $850).",
+                    "**Proven Market Need:** Serving a rapidly growing Enterprise AI market (TAM $50B, SAM $8B) with a high NPS of 72.",
+                    "**Experienced Leadership:** A dedicated team of 25, including 15 expert engineers, with deep domain expertise."
+                  ],
+                  "key_metrics_data": {
+                    "Current Revenue": "$2.5M",
+                    "YoY Growth Rate": "212.5%",
+                    "Gross Margin": "78%",
+                    "LTV:CAC Ratio": "14:1",
+                    "Net Promoter Score (NPS)": "72"
+                  },
+                  "speaker_notes": "Good morning/afternoon, everyone. Thank you for being here. I'm [Your Name], CEO of Sia. We are at the forefront of AI innovation, building intelligent solutions that empower large enterprises to make data-driven decisions faster and more effectively. Our journey since 2021 has been marked by extraordinary growth and a strong validation of our product. We've grown our revenue to $2.5 million, more than tripling it in the last year, with very healthy margins and outstanding customer satisfaction. We’re capitalizing on a massive market opportunity, and we have the team to execute. We’re here today to discuss our next phase of growth and how you can be a part of it."
+                },
+                {
+                  "slide_number": 2,
+                  "title": "The Problem: Data Overload & Underutilization",
+                  "subtitle": "Enterprises Drowning in Data, Thirsty for Insights",
+                  "content_points": [
+                    "**Complexity & Volume:** Modern enterprises grapple with an explosion of data from diverse sources, making manual analysis impossible.",
+                    "**Actionable Insights Gap:** Despite vast data, businesses struggle to extract timely, meaningful, and actionable insights to drive strategic decisions.",
+                    "**Inefficient Operations:** Legacy systems and manual processes lead to slow decision-making, missed opportunities, and operational inefficiencies.",
+                    "**High Cost & Resource Drain:** Hiring and retaining specialized data scientists and AI experts is expensive and competitive for many companies."
+                  ],
+                  "key_metrics_data": {},
+                  "chart_specifications": null,
+                  "speaker_notes": "In today's digital economy, enterprises are swimming in data. Petabytes of information are generated daily across CRM, ERP, supply chains, and customer interactions. The sheer volume and complexity make it virtually impossible for human analysts to keep up. This leads to a critical problem: businesses are drowning in data, but starving for insights. They struggle to connect the dots, identify trends, and predict outcomes. This isn't just an inconvenience; it translates directly into missed revenue opportunities, inefficient operations, and an inability to adapt quickly to market changes. The gap between data collection and data utilization is immense, and it's costing businesses billions."
+                },
+                {
+                  "slide_number": 3,
+                  "title": "The Solution: Sia's Intelligent AI Platform",
+                  "subtitle": "Transforming Raw Data into Strategic Advantage",
+                  "content_points": [
+                    "**Unified Data Intelligence:** Sia's B2B SaaS platform ingests and synthesizes diverse enterprise data, creating a single source of truth.",
+                    "**Predictive Analytics & Automation:** Leveraging advanced AI/ML models, we provide predictive insights, automate complex tasks, and optimize workflows.",
+                    "**Actionable & User-Friendly Dashboards:** Intuitive interfaces deliver custom, real-time dashboards and reports tailored to specific business needs.",
+                    "**Scalable & Secure Architecture:** Built for enterprise-grade performance, data security, and seamless integration with existing IT infrastructure."
+                  ],
+                  "key_metrics_data": {},
+                  "chart_specifications": null,
+                  "speaker_notes": "Sia provides the critical solution. We've developed an intelligent AI platform designed specifically for the enterprise, delivered as a B2B SaaS. Our platform acts as a central nervous system for your data, unifying disparate sources and applying advanced machine learning to make sense of it all. We don't just present data; we deliver actionable intelligence. Imagine knowing what your customers want before they ask, predicting supply chain disruptions before they occur, or identifying the most profitable market segments with precision. Sia makes this a reality. Our dashboards are not only powerful but also incredibly user-friendly, putting the power of AI directly into the hands of business users without requiring a team of data scientists. It’s scalable, secure, and ready for the demands of any large enterprise."
+                },
+                {
+                  "slide_number": 4,
+                  "title": "Market Opportunity & Size: A Vast & Growing Landscape",
+                  "subtitle": "Capturing a Significant Share of the $50 Billion Enterprise AI Market",
+                  "content_points": [
+                    "**Total Addressable Market (TAM):** Enterprise AI is a booming industry, valued at $50 Billion globally, growing at 25% annually.",
+                    "**Serviceable Addressable Market (SAM):** Our immediate focus targets a $8 Billion segment of this market, ripe for disruption with our specialized solutions.",
+                    "**Strong Market Growth:** The overall market is projected to continue its rapid expansion, driven by digital transformation initiatives and AI adoption.",
+                    "**Early Entry Advantage:** With an existing market share of 0.002%, we are exceptionally well-positioned for exponential growth within this underserved segment."
+                  ],
+                  "key_metrics_data": {
+                    "Total Addressable Market (TAM)": "$50 Billion",
+                    "Serviceable Addressable Market (SAM)": "$8 Billion",
+                    "Market Growth Rate": "25% (CAGR)",
+                    "Current Market Share": "0.002%"
+                  },
+                  "chart_specifications": {
+                    "type": "bar_chart",
+                    "title": "Enterprise AI Market Opportunity",
+                    "x_axis_label": "Market Segment",
+                    "y_axis_label": "Market Value ($B)",
+                    "data_series": [
+                      {
+                        "name": "TAM",
+                        "value": 50
+                      },
+                      {
+                        "name": "SAM",
+                        "value": 8
+                      }
+                    ],
+                    "highlight_growth_rate": "25% Annual Growth"
+                  },
+                  "speaker_notes": "The market for Enterprise AI is not just large; it's exploding. We're operating in a Total Addressable Market of $50 Billion, which is expanding at a phenomenal 25% compound annual growth rate. Our initial focus, our Serviceable Addressable Market, is a substantial $8 Billion segment where our solutions create immediate and significant value. While our current market share is 0.002%, this indicates a massive runway for growth. It shows we've validated the need and are now poised to scale. We're not trying to capture the entire $50 billion; we're targeting the most receptive and high-value segments where our product truly shines, ensuring efficient resource allocation and maximum impact as we grow."
+                },
+                {
+                  "slide_number": 5,
+                  "title": "Business Model & Revenue Streams",
+                  "subtitle": "Scalable B2B SaaS with Predictable Recurring Revenue",
+                  "content_points": [
+                    "**Subscription-Based SaaS:** Our core revenue comes from annual and multi-year subscriptions, ensuring predictable recurring income.",
+                    "**Tiered Pricing Structure:** Offering various tiers based on feature sets, data volume, and user count to cater to diverse enterprise needs and budgets.",
+                    "**High LTV & Low Churn:** A robust customer lifetime value of $12,000 against a customer acquisition cost of $850, leading to an excellent 14:1 LTV:CAC ratio and a low 5% churn rate.",
+                    "**Professional Services (Optional):** Additional revenue from implementation, customization, and ongoing premium support for larger deployments."
+                  ],
+                  "key_metrics_data": {
+                    "Business Model": "B2B SaaS (Subscription)",
+                    "Lifetime Value (LTV)": "$12,000",
+                    "Customer Acquisition Cost (CAC)": "$850",
+                    "LTV:CAC Ratio": "14:1",
+                    "Churn Rate": "5%",
+                    "Gross Margin": "78%"
+                  },
+                  "chart_specifications": {
+                    "type": "pie_chart",
+                    "title": "Revenue Stream Breakdown (Illustrative)",
+                    "data_series": [
+                      {
+                        "label": "SaaS Subscriptions",
+                        "value": 90
+                      },
+                      {
+                        "label": "Professional Services",
+                        "value": 10
+                      }
+                    ],
+                    "notes": "Illustrative distribution, subject to change with growth."
+                  },
+                  "speaker_notes": "Sia operates on a highly scalable B2B SaaS model, generating predictable recurring revenue through subscriptions. Our pricing is tiered, allowing us to serve a wide range of enterprises from mid-market to large corporations, each with unique needs. The beauty of our model lies in its strong unit economics. We've achieved an outstanding LTV to CAC ratio of 14:1, meaning for every dollar we spend acquiring a customer, we generate fourteen dollars in lifetime value. This, coupled with a remarkably low 5% churn rate, underscores the stickiness of our product and the immense value our customers derive. Our high gross margin of 78% further solidifies our financial health and ability to reinvest in growth. We also offer optional professional services for complex integrations, adding another revenue stream while ensuring customer success."
+                },
+                {
+                  "slide_number": 6,
+                  "title": "Financial Performance & Projections",
+                  "subtitle": "Strong Revenue Growth and Healthy Capital Management",
+                  "content_points": [
+                    "**Exceptional Historical Growth:** Achieved $2.5M in current revenue, up from $800K last year, representing a 212.5% revenue growth rate.",
+                    "**Proven User Adoption:** Consistent user growth from 500 to 15,000 Monthly Active Users since inception.",
+                    "**Healthy Burn Rate & Runway:** Operating with a burn rate of $180K/month, ensuring an 18-month runway on existing capital.",
+                    "**Solid Valuation:** Last valued at $45M, reflecting significant investor confidence in our trajectory and market position."
+                  ],
+                  "key_metrics_data": {
+                    "Current Revenue (Annualized)": "$2.5M",
+                    "Previous Year Revenue (Annualized)": "$800K",
+                    "Revenue Growth Rate (YoY)": "212.5%",
+                    "Monthly Burn Rate": "$180,000",
+                    "Runway": "18 Months",
+                    "Last Valuation": "$45M"
+                  },
+                  "chart_specifications": [
+                    {
+                      "type": "line_chart",
+                      "title": "Revenue History (Quarterly)",
+                      "x_axis_label": "Period",
+                      "y_axis_label": "Revenue ($)",
+                      "data": {
+                        "labels": [
+                          "Q1 2022",
+                          "Q2 2022",
+                          "Q3 2022",
+                          "Q4 2022",
+                          "Q1 2023",
+                          "Q2 2023",
+                          "Q3 2023",
+                          "Q4 2023"
+                        ],
+                        "series": [
+                          {
+                            "name": "Revenue",
+                            "data": [
+                              100000,
+                              250000,
+                              400000,
+                              650000,
+                              800000,
+                              1200000,
+                              1800000,
+                              2500000
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "line_chart",
+                      "title": "Monthly Active Users Growth",
+                      "x_axis_label": "Period",
+                      "y_axis_label": "Users",
+                      "data": {
+                        "labels": [
+                          "Q1 2022",
+                          "Q2 2022",
+                          "Q3 2022",
+                          "Q4 2022",
+                          "Q1 2023",
+                          "Q2 2023",
+                          "Q3 2023",
+                          "Q4 2023"
+                        ],
+                        "series": [
+                          {
+                            "name": "MAU",
+                            "data": [
+                              500,
+                              1200,
+                              2500,
+                              4800,
+                              7500,
+                              10200,
+                              12800,
+                              15000
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "speaker_notes": "Our financial performance speaks for itself. We've not only met but exceeded our revenue targets, demonstrating a staggering 212.5% year-over-year growth, moving from $800,000 to $2.5 million in current revenue. This isn't just a revenue story; it's mirrored by our consistent user growth, scaling from 500 to 15,000 monthly active users. This shows product-market fit and effective customer acquisition. Importantly, we are highly capital efficient. With a burn rate of $180,000 per month, we have a healthy 18-month runway on our existing capital, showcasing our disciplined financial management. Our last valuation of $45 million underscores the confidence investors have in our team and our technology's potential. The charts clearly illustrate our strong upward trajectory for both revenue and user adoption."
+                },
+                {
+                  "slide_number": 7,
+                  "title": "Competitive Analysis & Positioning",
+                  "subtitle": "Differentiating Sia Through Intelligent Automation & Unparalleled Integration",
+                  "content_points": [
+                    "**Strong Competitive Position:** Sia stands out in a crowded market with a 'Strong' competitive position, validated by high customer satisfaction and retention.",
+                    "**Key Differentiators:** Our platform offers superior predictive accuracy, seamless integration capabilities, and a highly intuitive user experience for non-technical users.",
+                    "**Focus on Actionable Insights:** Unlike competitors who provide raw data analysis, Sia focuses on delivering prescriptive recommendations and automating workflows.",
+                    "**Technological Edge:** Proprietary AI/ML algorithms provide deeper insights and faster processing compared to general-purpose AI tools."
+                  ],
+                  "key_metrics_data": {
+                    "Competitive Position": "Strong",
+                    "Net Promoter Score (NPS)": "72",
+                    "Churn Rate": "5%"
+                  },
+                  "chart_specifications": {
+                    "type": "2x2_matrix",
+                    "title": "Competitive Landscape",
+                    "x_axis": "Ease of Use / Integration",
+                    "y_axis": "Depth of AI Insights / Automation",
+                    "quadrants": {
+                      "Top-Right": "Sia (High Ease, High Depth)",
+                      "Top-Left": "Niche AI Specialists (Low Ease, High Depth)",
+                      "Bottom-Right": "Generic BI Tools (High Ease, Low Depth)",
+                      "Bottom-Left": "Legacy Analytics (Low Ease, Low Depth)"
+                    },
+                    "annotations": [
+                      "Sia: Intelligent Automation & Unparalleled Integration"
+                    ]
+                  },
+                  "speaker_notes": "In the Enterprise AI landscape, competition is fierce, but Sia has carved out a 'Strong' competitive position. Many competitors offer powerful data analysis, but they often require significant technical expertise or present data without clear actionable steps. Our key differentiators are our focus on *actionable insights* and *intelligent automation*. We don't just show you what happened; we tell you what will happen and often, what to do about it. Our proprietary AI/ML algorithms are tailored for enterprise data, offering superior predictive accuracy and faster processing. We prioritize seamless integration into existing enterprise ecosystems and ensure our platform is incredibly intuitive, making advanced AI accessible to every business user. This 2x2 matrix visually represents how Sia sits in the top-right quadrant, excelling in both ease of use/integration and the depth of our AI-driven insights and automation, truly setting us apart."
+                },
+                {
+                  "slide_number": 8,
+                  "title": "Risk Assessment & Mitigation",
+                  "subtitle": "Proactive Strategies for Sustainable Growth",
+                  "content_points": [
+                    "**Competition Risk:** Continuously innovate with R&D, maintain high NPS, and expand patent portfolio to secure a technological moat.",
+                    "**Talent Acquisition Risk:** Strong employer brand, competitive compensation, and a vibrant culture to attract and retain top AI/ML talent.",
+                    "**Data Security & Privacy Risk:** Adherence to highest industry standards (e.g., SOC 2, ISO 27001), regular audits, and robust encryption protocols.",
+                    "**Market Adoption Risk:** Strategic partnerships with system integrators and industry leaders, combined with targeted marketing, to accelerate enterprise adoption."
+                  ],
+                  "key_metrics_data": {},
+                  "chart_specifications": null,
+                  "speaker_notes": "We are fully aware that with great opportunity comes inherent risks. We've proactively identified potential challenges and developed robust mitigation strategies. Firstly, in a dynamic market like AI, competition is a constant. Our answer is continuous innovation, a relentless focus on customer satisfaction—as evidenced by our high NPS—and building a strong intellectual property portfolio. Secondly, attracting and retaining top AI talent is crucial. We've fostered a fantastic culture, offer competitive packages, and provide challenging work that excites our engineering team of 15. Thirdly, data security and privacy are paramount for enterprise clients. We're committed to the highest industry standards, with ongoing audits and state-of-the-art encryption. Lastly, market adoption. We’re not just selling a product; we're building an ecosystem through strategic partnerships that will accelerate our market penetration and ensure long-term success."
+                },
+                {
+                  "slide_number": 9,
+                  "title": "Investment Ask & Use of Funds",
+                  "subtitle": "Seeking $5 Million to Accelerate Market Leadership",
+                  "content_points": [
+                    "**Investment Ask:** Seeking $5 Million in a Series A Extension round to accelerate our growth and cement market leadership.",
+                    "**Product Development & R&D (40%):** Expand AI capabilities, introduce new predictive models, and enhance platform features.",
+                    "**Sales & Marketing Expansion (35%):** Scale our enterprise sales team, expand into new geographic markets, and enhance brand visibility.",
+                    "**Talent Acquisition (25%):** Grow our engineering, data science, and customer success teams to support rapid scaling and innovation."
+                  ],
+                  "key_metrics_data": {
+                    "Investment Ask": "$5,000,000",
+                    "Current Funding Stage": "Series A Extension"
+                  },
+                  "chart_specifications": {
+                    "type": "pie_chart",
+                    "title": "Use of Funds Allocation",
+                    "data_series": [
+                      {
+                        "label": "Product Development & R&D",
+                        "value": 40
+                      },
+                      {
+                        "label": "Sales & Marketing",
+                        "value": 35
+                      },
+                      {
+                        "label": "Talent Acquisition",
+                        "value": 25
+                      }
+                    ],
+                    "notes": "Allocated to drive critical growth initiatives."
+                  },
+                  "speaker_notes": "We are seeking to raise $5 million in a Series A Extension round. This capital infusion is crucial for accelerating our proven growth trajectory and solidifying our market leadership in Enterprise AI. Our plan for these funds is strategic and focused on achieving clear milestones. 40% will be allocated to Product Development and R&D, allowing us to push the boundaries of our AI, introduce groundbreaking new features, and stay ahead of the curve. 35% will fuel our Sales and Marketing expansion, enabling us to grow our enterprise sales team, penetrate new geographies, and enhance our brand visibility. The remaining 25% is earmarked for Talent Acquisition, ensuring we continue to attract and retain the best engineering, data science, and customer success talent to support our rapid scaling. This investment will extend our runway and propel us towards Series B, unlocking significant shareholder value."
+                },
+                {
+                  "slide_number": 10,
+                  "title": "Our Visionary Team & Esteemed Advisors",
+                  "subtitle": "Expertise, Passion, and a Shared Vision for AI Innovation",
+                  "content_points": [
+                    "**Experienced Leadership:** Our core team comprises seasoned professionals with deep expertise in AI, enterprise software, and cloud infrastructure.",
+                    "**Dedicated Engineering Powerhouse:** 15 out of 25 employees are engineers, driving rapid product development and innovation.",
+                    "**Founder-Market Fit:** Founders possess direct experience addressing enterprise pain points, ensuring a deep understanding of customer needs.",
+                    "**Strategic Advisory Board:** Supported by industry veterans and AI luminaries providing invaluable guidance and strategic connections."
+                  ],
+                  "key_metrics_data": {
+                    "Team Size": "25 Employees",
+                    "Engineering Team Size": "15 Engineers",
+                    "Founded Year": "2021"
+                  },
+                  "chart_specifications": null,
+                  "speaker_notes": "At Sia, our greatest asset is our team. We are a lean, yet powerful, team of 25 dedicated individuals, with 15 of them being highly skilled engineers at the forefront of AI innovation. Our leadership team brings decades of combined experience in artificial intelligence, enterprise software development, and scaling high-growth tech companies. Our founders have lived the problems we are solving, giving us a unique 'founder-market fit' that ensures our product truly resonates with enterprise needs. We’re not just building technology; we’re building solutions that solve real-world problems for our customers. We are also incredibly fortunate to be guided by an esteemed advisory board, comprising industry veterans and AI luminaries who provide strategic insights and open doors to critical partnerships. This team is built for success."
+                },
+                {
+                  "slide_number": 11,
+                  "title": "Appendix: Supporting Data & Historical Metrics",
+                  "subtitle": "Detailed Information for Deeper Analysis",
+                  "content_points": [
+                    "**Detailed Revenue History:** Quarterly revenue figures illustrating consistent upward trend since inception.",
+                    "**User Growth Trajectory:** Monthly active user count showing sustained and accelerating user adoption.",
+                    "**Funding Round Details:** Overview of previous funding, amounts, and valuation milestones.",
+                    "**Key Operational Metrics:** Further breakdown of CAC, LTV, NPS, and churn rate."
+                  ],
+                  "key_metrics_data": {},
+                  "chart_specifications": [
+                    {
+                      "type": "table",
+                      "title": "Sia Funding History",
+                      "headers": [
+                        "Date",
+                        "Amount",
+                        "Round"
+                      ],
+                      "data": [
+                        [
+                          "2022-01",
+                          "$2,000,000",
+                          "Seed"
+                        ],
+                        [
+                          "2023-06",
+                          "$10,000,000",
+                          "Series A"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "table",
+                      "title": "Quarterly Revenue History",
+                      "headers": [
+                        "Period",
+                        "Revenue"
+                      ],
+                      "data": [
+                        [
+                          "Q1 2022",
+                          "$100,000"
+                        ],
+                        [
+                          "Q2 2022",
+                          "$250,000"
+                        ],
+                        [
+                          "Q3 2022",
+                          "$400,000"
+                        ],
+                        [
+                          "Q4 2022",
+                          "$650,000"
+                        ],
+                        [
+                          "Q1 2023",
+                          "$800,000"
+                        ],
+                        [
+                          "Q2 2023",
+                          "$1,200,000"
+                        ],
+                        [
+                          "Q3 2023",
+                          "$1,800,000"
+                        ],
+                        [
+                          "Q4 2023",
+                          "$2,500,000"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "table",
+                      "title": "Monthly Active User Growth",
+                      "headers": [
+                        "Period",
+                        "MAU"
+                      ],
+                      "data": [
+                        [
+                          "Q1 2022",
+                          "500"
+                        ],
+                        [
+                          "Q2 2022",
+                          "1,200"
+                        ],
+                        [
+                          "Q3 2022",
+                          "2,500"
+                        ],
+                        [
+                          "Q4 2022",
+                          "4,800"
+                        ],
+                        [
+                          "Q1 2023",
+                          "7,500"
+                        ],
+                        [
+                          "Q2 2023",
+                          "10,200"
+                        ],
+                        [
+                          "Q3 2023",
+                          "12,800"
+                        ],
+                        [
+                          "Q4 2023",
+                          "15,000"
+                        ]
+                      ]
+                    }
+                  ],
+                  "speaker_notes": "For those who wish to delve deeper into our performance and historical data, this appendix provides detailed information. Here you will find our comprehensive revenue history on a quarterly basis, illustrating the consistent and accelerating growth we've achieved. You'll also see the robust trajectory of our monthly active users, showcasing strong product adoption and engagement. Furthermore, we've included a summary of our previous funding rounds, providing transparency into our capital structure and prior investor confidence. This data supports all the claims made in our presentation and offers a solid foundation for your due diligence. Please feel free to ask any questions you may have after the presentation."
+                }
+              ],
+              "charts_data": {
+                "Market Opportunity": {
+                  "type": "bar_chart",
+                  "title": "Enterprise AI Market Opportunity",
+                  "x_axis_label": "Market Segment",
+                  "y_axis_label": "Market Value ($B)",
+                  "data_series": [
+                    {
+                      "name": "TAM",
+                      "value": 50
+                    },
+                    {
+                      "name": "SAM",
+                      "value": 8
+                    }
+                  ],
+                  "highlight_growth_rate": "25% Annual Growth"
+                },
+                "Revenue Stream Breakdown": {
+                  "type": "pie_chart",
+                  "title": "Revenue Stream Breakdown (Illustrative)",
+                  "data_series": [
+                    {
+                      "label": "SaaS Subscriptions",
+                      "value": 90
+                    },
+                    {
+                      "label": "Professional Services",
+                      "value": 10
+                    }
+                  ],
+                  "notes": "Illustrative distribution, subject to change with growth."
+                },
+                "Revenue History": {
+                  "type": "line_chart",
+                  "title": "Revenue History (Quarterly)",
+                  "x_axis_label": "Period",
+                  "y_axis_label": "Revenue ($)",
+                  "data": {
+                    "labels": [
+                      "Q1 2022",
+                      "Q2 2022",
+                      "Q3 2022",
+                      "Q4 2022",
+                      "Q1 2023",
+                      "Q2 2023",
+                      "Q3 2023",
+                      "Q4 2023"
+                    ],
+                    "series": [
+                      {
+                        "name": "Revenue",
+                        "data": [
+                          100000,
+                          250000,
+                          400000,
+                          650000,
+                          800000,
+                          1200000,
+                          1800000,
+                          2500000
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "MAU Growth": {
+                  "type": "line_chart",
+                  "title": "Monthly Active Users Growth",
+                  "x_axis_label": "Period",
+                  "y_axis_label": "Users",
+                  "data": {
+                    "labels": [
+                      "Q1 2022",
+                      "Q2 2022",
+                      "Q3 2022",
+                      "Q4 2022",
+                      "Q1 2023",
+                      "Q2 2023",
+                      "Q3 2023",
+                      "Q4 2023"
+                    ],
+                    "series": [
+                      {
+                        "name": "MAU",
+                        "data": [
+                          500,
+                          1200,
+                          2500,
+                          4800,
+                          7500,
+                          10200,
+                          12800,
+                          15000
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "Competitive Landscape": {
+                  "type": "2x2_matrix",
+                  "title": "Competitive Landscape",
+                  "x_axis": "Ease of Use / Integration",
+                  "y_axis": "Depth of AI Insights / Automation",
+                  "quadrants": {
+                    "Top-Right": "Sia (High Ease, High Depth)",
+                    "Top-Left": "Niche AI Specialists (Low Ease, High Depth)",
+                    "Bottom-Right": "Generic BI Tools (High Ease, Low Depth)",
+                    "Bottom-Left": "Legacy Analytics (Low Ease, Low Depth)"
+                  },
+                  "annotations": [
+                    "Sia: Intelligent Automation & Unparalleled Integration"
+                  ]
+                },
+                "Use of Funds Allocation": {
+                  "type": "pie_chart",
+                  "title": "Use of Funds Allocation",
+                  "data_series": [
+                    {
+                      "label": "Product Development & R&D",
+                      "value": 40
+                    },
+                    {
+                      "label": "Sales & Marketing",
+                      "value": 35
+                    },
+                    {
+                      "label": "Talent Acquisition",
+                      "value": 25
+                    }
+                  ],
+                  "notes": "Allocated to drive critical growth initiatives."
+                },
+                "Funding History Table": {
+                  "type": "table",
+                  "title": "Sia Funding History",
+                  "headers": [
+                    "Date",
+                    "Amount",
+                    "Round"
+                  ],
+                  "data": [
+                    [
+                      "2022-01",
+                      "$2,000,000",
+                      "Seed"
+                    ],
+                    [
+                      "2023-06",
+                      "$10,000,000",
+                      "Series A"
+                    ]
+                  ]
+                },
+                "Quarterly Revenue Table": {
+                  "type": "table",
+                  "title": "Quarterly Revenue History",
+                  "headers": [
+                    "Period",
+                    "Revenue"
+                  ],
+                  "data": [
+                    [
+                      "Q1 2022",
+                      "$100,000"
+                    ],
+                    [
+                      "Q2 2022",
+                      "$250,000"
+                    ],
+                    [
+                      "Q3 2022",
+                      "$400,000"
+                    ],
+                    [
+                      "Q4 2022",
+                      "$650,000"
+                    ],
+                    [
+                      "Q1 2023",
+                      "$800,000"
+                    ],
+                    [
+                      "Q2 2023",
+                      "$1,200,000"
+                    ],
+                    [
+                      "Q3 2023",
+                      "$1,800,000"
+                    ],
+                    [
+                      "Q4 2023",
+                      "$2,500,000"
+                    ]
+                  ]
+                },
+                "MAU Table": {
+                  "type": "table",
+                  "title": "Monthly Active User Growth",
+                  "headers": [
+                    "Period",
+                    "MAU"
+                  ],
+                  "data": [
+                    [
+                      "Q1 2022",
+                      "500"
+                    ],
+                    [
+                      "Q2 2022",
+                      "1,200"
+                    ],
+                    [
+                      "Q3 2022",
+                      "2,500"
+                    ],
+                    [
+                      "Q4 2022",
+                      "4,800"
+                    ],
+                    [
+                      "Q1 2023",
+                      "7,500"
+                    ],
+                    [
+                      "Q2 2023",
+                      "10,200"
+                    ],
+                    [
+                      "Q3 2023",
+                      "12,800"
+                    ],
+                    [
+                      "Q4 2023",
+                      "15,000"
+                    ]
+                  ]
+                }
+              },
+              "speaker_notes": {},
+              "presentation_metadata": {
+                "investor_type": "Angel",
+                "presentation_style": "pitch",
+                "slide_count": 11,
+                "estimated_duration": "22-33 minutes",
+                "generated_at": "2025-09-21T11:37:39.225348"
+              },
+              "formatting": {
+                "template": "professional_investor",
+                "color_scheme": "corporate_blue",
+                "font_family": "Arial, Helvetica",
+                "slide_dimensions": "16:9"
+              }
+            },
+            "Strategic_pitch": {
+              "slides": [
+                {
+                  "slide_number": 1,
+                  "title": "Sia: Powering Enterprise AI Transformation",
+                  "subtitle": "Delivering unparalleled intelligence and efficiency through proprietary B2B SaaS AI solutions.",
+                  "content_points": [
+                    "Disrupting Enterprise AI: Our advanced platform addresses critical intelligence gaps for large organizations.",
+                    "Explosive Growth & Traction: $2.5M ARR with 212.5% YoY growth, 78% gross margin, and strong unit economics (LTV/CAC 14.1x).",
+                    "Strategic Market Entry: Tapping into a $50B TAM ($8B SAM) with a rapidly growing, defensible AI solution.",
+                    "Proprietary Technology Advantage: Our unique AI algorithms and scalable SaaS architecture offer a significant competitive edge and integration potential.",
+                    "Vision for Synergy: Seeking strategic partners to accelerate market penetration and unlock new value streams through integration."
+                  ],
+                  "key_metrics": [
+                    "Current Revenue: $2.5M",
+                    "Revenue Growth Rate: 212.5%",
+                    "Gross Margin: 78%",
+                    "LTV/CAC Ratio: 14.1x",
+                    "TAM: $50 Billion"
+                  ],
+                  "data_visualizations_needed": [
+                    "Summary Dashboard: Key financial and operational highlights."
+                  ],
+                  "chart_specifications": {
+                    "Summary Dashboard": {
+                      "type": "dashboard",
+                      "data": {
+                        "Current Revenue": "$2.5M",
+                        "YoY Growth": "212.5%",
+                        "Gross Margin": "78%",
+                        "LTV/CAC": "14.1x",
+                        "TAM": "$50B"
+                      },
+                      "description": "A visual display of Sia's top-level financial and market achievements, designed for quick comprehension."
+                    }
+                  }
+                },
+                {
+                  "slide_number": 2,
+                  "title": "The Enterprise AI Imperative & Sia's Intelligent Solution",
+                  "subtitle": "Addressing critical intelligence gaps and inefficiencies with proprietary, seamlessly integrated AI.",
+                  "content_points": [
+                    "**The Problem:** Enterprises struggle with vast, unstructured data, leading to missed insights, inefficient decision-making, and high operational costs due to manual processes and fragmented data.",
+                    "**Sia's Solution - Intelligent Data Unification:** Our platform ingests and synthesizes diverse data sources, transforming raw data into structured, actionable intelligence.",
+                    "**Domain-Specific AI Models:** We deploy bespoke AI models tailored to specific enterprise functions (e.g., predictive analytics, operational optimization, customer intelligence) – not generic tools.",
+                    "**Seamless Integration & Automated Decision Support:** Designed for low-friction integration with existing enterprise systems, enhancing their value without costly overhauls and empowering real-time proactive decision-making."
+                  ],
+                  "key_metrics": [],
+                  "data_visualizations_needed": [
+                    "Infographic: Illustrating data silos and complexity (Problem).",
+                    "Architectural Diagram: Showing 'Before Sia' (fragmented) vs. 'After Sia' (integrated, intelligent) process flow."
+                  ],
+                  "chart_specifications": {
+                    "Problem Infographic": {
+                      "type": "infographic",
+                      "data": "Conceptual representation of fragmented data sources and manual analysis bottlenecks.",
+                      "description": "Visually represent the 'black box' of enterprise data and the 'pain points' of slow, manual analysis."
+                    },
+                    "Solution Diagram": {
+                      "type": "flow_chart",
+                      "data": "Input (diverse data) -> Sia Platform (unification, AI processing) -> Output (actionable insights, automated actions) -> Enterprise Systems (enhanced).",
+                      "description": "Illustrates how Sia integrates into and enhances existing enterprise ecosystems, delivering clear value."
+                    }
+                  }
+                },
+                {
+                  "slide_number": 3,
+                  "title": "Dominating the Exploding Enterprise AI Market",
+                  "subtitle": "Capturing significant share in a $50 Billion market with robust, sustained growth.",
+                  "content_points": [
+                    "Massive & Growing Market: Total Addressable Market (TAM) of $50B, with a Serviceable Addressable Market (SAM) of $8B, driven by enterprise digital transformation.",
+                    "25% Annual Market Growth: The Enterprise AI sector is expanding rapidly, creating continuous demand for innovative solutions like Sia.",
+                    "Untapped Potential: Our current market share of 0.002% highlights immense growth runway within this expansive and underserved market, offering significant capture opportunities.",
+                    "Strategic Entry Point: We offer a unique opportunity for partners to gain immediate traction or expand their footprint in this high-value, high-growth segment."
+                  ],
+                  "key_metrics": [
+                    "Total Addressable Market (TAM): $50 Billion",
+                    "Serviceable Addressable Market (SAM): $8 Billion",
+                    "Market Growth Rate: 25% annually",
+                    "Current Market Share: 0.002%"
+                  ],
+                  "data_visualizations_needed": [
+                    "Market Size Funnel: TAM, SAM, and Sia's current market share.",
+                    "Market Growth Rate Chart: Projected market growth over 5 years."
+                  ],
+                  "chart_specifications": {
+                    "Market Size Funnel": {
+                      "type": "bar_chart",
+                      "data": {
+                        "labels": [
+                          "TAM ($50B)",
+                          "SAM ($8B)",
+                          "Sia's Share"
+                        ],
+                        "values": [
+                          50000000000,
+                          8000000000,
+                          1000000
+                        ]
+                      },
+                      "description": "Visualizes the vast market opportunity, from total addressable to Sia's current footprint, emphasizing room for growth.",
+                      "options": {
+                        "y_axis_label": "Market Value",
+                        "title": "Enterprise AI Market Opportunity"
+                      }
+                    },
+                    "Market Growth Rate Chart": {
+                      "type": "line_chart",
+                      "data": {
+                        "labels": [
+                          "Year 1",
+                          "Year 2",
+                          "Year 3",
+                          "Year 4",
+                          "Year 5"
+                        ],
+                        "values": [
+                          1,
+                          1.25,
+                          1.56,
+                          1.95,
+                          2.44
+                        ]
+                      },
+                      "description": "Illustrates the 25% compound annual growth of the Enterprise AI market, highlighting sustained demand.",
+                      "options": {
+                        "y_axis_label": "Growth Index (Base=1)",
+                        "title": "Enterprise AI Market CAGR (25%)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "slide_number": 4,
+                  "title": "Scalable B2B SaaS Model",
+                  "subtitle": "High-margin recurring revenue designed for rapid expansion and strategic integration.",
+                  "content_points": [
+                    "Subscription-Based Revenue: Our core B2B SaaS model provides predictable, recurring revenue streams based on user count, data volume, and feature tiers.",
+                    "High Gross Margins: 78% gross margin underscores the inherent profitability and scalability of our software-centric approach.",
+                    "Exceptional Unit Economics: An industry-leading LTV/CAC ratio of 14.1x and a manageable 5% churn rate drive highly efficient and sustainable growth.",
+                    "Value-Added Services Potential: Future opportunities for professional services, custom integrations, and specialized module development, enhancing long-term value and strategic alignment.",
+                    "Designed for Integration: Our modular architecture facilitates seamless integration with strategic partners' platforms and existing customer bases, creating mutual value."
+                  ],
+                  "key_metrics": [
+                    "Gross Margin: 78%",
+                    "LTV: $12,000",
+                    "CAC: $850",
+                    "LTV/CAC Ratio: 14.1x",
+                    "Churn Rate: 5%"
+                  ],
+                  "data_visualizations_needed": [
+                    "Revenue Model Breakdown: Visualizing subscription tiers and value propositions.",
+                    "LTV vs. CAC Comparison: Bar chart."
+                  ],
+                  "chart_specifications": {
+                    "Revenue Model Breakdown": {
+                      "type": "infographic",
+                      "data": "Conceptual diagram of subscription tiers (e.g., Starter, Pro, Enterprise) with associated features and pricing logic.",
+                      "description": "Visually explains how Sia's tiered SaaS model generates recurring revenue and caters to different enterprise sizes and needs."
+                    },
+                    "LTV vs. CAC Comparison": {
+                      "type": "bar_chart",
+                      "data": {
+                        "labels": [
+                          "Customer Lifetime Value (LTV)",
+                          "Customer Acquisition Cost (CAC)"
+                        ],
+                        "values": [
+                          12000,
+                          850
+                        ]
+                      },
+                      "description": "A clear comparison highlighting the strong returns on customer acquisition, indicating efficient growth.",
+                      "options": {
+                        "y_axis_label": "Value ($)",
+                        "title": "Exceptional Unit Economics"
+                      }
+                    }
+                  }
+                },
+                {
+                  "slide_number": 5,
+                  "title": "Demonstrating Explosive Growth & Profitability",
+                  "subtitle": "Strong current performance with aggressive, yet achievable, growth projections.",
+                  "content_points": [
+                    "Rapid Revenue Acceleration: Current ARR of $2.5M, boasting a 212.5% YoY growth, showcasing strong product-market fit and execution.",
+                    "Healthy Margins: Consistent 78% gross margin signals operational efficiency and strong core business profitability.",
+                    "Sustainable Unit Economics: Industry-leading LTV/CAC ratio of 14.1x and a manageable 5% churn rate drive efficient scale.",
+                    "Aggressive Projections: Projecting $8.75M ARR by Year 3 and $19.6M ARR by Year 5, fueled by market expansion and strategic partnerships.",
+                    "Prudent Capital Management: 18 months runway with a $180K monthly burn, demonstrating efficient use of capital."
+                  ],
+                  "key_metrics": [
+                    "Current Revenue: $2.5M",
+                    "Previous Year Revenue: $800K",
+                    "Revenue Growth Rate: 212.5%",
+                    "Gross Margin: 78%",
+                    "Burn Rate: $180K/month",
+                    "Runway: 18 months"
+                  ],
+                  "data_visualizations_needed": [
+                    "Historical & Projected Revenue Growth: Line chart.",
+                    "Key Financial Snapshot: Dashboard of current revenue, growth, GM, LTV/CAC."
+                  ],
+                  "chart_specifications": {
+                    "Historical & Projected Revenue Growth": {
+                      "type": "line_chart",
+                      "data": {
+                        "labels": [
+                          "2021",
+                          "2022",
+                          "2023",
+                          "2024 (Proj)",
+                          "2025 (Proj)",
+                          "2026 (Proj)"
+                        ],
+                        "values": [
+                          0.4,
+                          0.8,
+                          2.5,
+                          5.0,
+                          8.75,
+                          13.1
+                        ]
+                      },
+                      "description": "Illustrates Sia's impressive historical revenue growth and ambitious, but achievable, projections based on strategic expansion.",
+                      "options": {
+                        "y_axis_label": "Revenue (Millions $)",
+                        "title": "Revenue Growth & Projections"
+                      }
+                    },
+                    "Key Financial Snapshot": {
+                      "type": "dashboard",
+                      "data": {
+                        "Current ARR": "$2.5M",
+                        "YoY Growth": "212.5%",
+                        "Gross Margin": "78%",
+                        "LTV/CAC": "14.1x"
+                      },
+                      "description": "A concise summary of Sia's strong financial health and efficient operating model."
+                    }
+                  }
+                },
+                {
+                  "slide_number": 6,
+                  "title": "Differentiated Advantage in a Dynamic Landscape",
+                  "subtitle": "Our proprietary AI and integrated approach provide a strong, defensible market position.",
+                  "content_points": [
+                    "Superior AI & Domain Expertise: Unlike generic AI platforms, Sia offers highly specialized, proprietary AI models tailored for specific enterprise complexity and industries.",
+                    "Seamless Integration vs. Disruption: We are built for compatibility, minimizing client friction and maximizing value from existing tech stacks, a key differentiator from disruptive, rip-and-replace alternatives.",
+                    "Strong Customer Validation: Low 5% churn and high NPS of 72 demonstrate superior product value, sticky integrations, and customer satisfaction compared to competitors.",
+                    "Strategic Value Proposition: We don't just solve problems; we integrate to create new capabilities, enhance competitive advantages, and unlock unforeseen efficiencies for our partners and their customers.",
+                    "Robust IP Portfolio: Actively developing and protecting core intellectual property in AI algorithms and data processing, creating significant barriers to entry for competitors."
+                  ],
+                  "key_metrics": [
+                    "Net Promoter Score (NPS): 72",
+                    "Churn Rate: 5%"
+                  ],
+                  "data_visualizations_needed": [
+                    "Competitive Matrix: 'AI Sophistication' vs. 'Ease of Integration'.",
+                    "NPS & Churn Rate: Indicator of customer satisfaction and retention."
+                  ],
+                  "chart_specifications": {
+                    "Competitive Matrix": {
+                      "type": "scatter_plot",
+                      "data": {
+                        "x_axis_label": "Ease of Integration/Deployment",
+                        "y_axis_label": "AI Sophistication & Customization",
+                        "points": [
+                          {
+                            "name": "Sia",
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "name": "Generic AI Vendor A",
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "name": "Legacy Data Solutions B",
+                            "x": 4,
+                            "y": 6
+                          },
+                          {
+                            "name": "Disruptive AI Startup C",
+                            "x": 6,
+                            "y": 8
+                          }
+                        ]
+                      },
+                      "description": "Positions Sia strategically at the intersection of high AI sophistication and seamless enterprise integration, highlighting competitive advantages.",
+                      "options": {
+                        "title": "Competitive Positioning: Sia's Advantage"
+                      }
+                    },
+                    "NPS & Churn Rate": {
+                      "type": "bar_chart",
+                      "data": {
+                        "labels": [
+                          "Net Promoter Score",
+                          "Customer Churn Rate"
+                        ],
+                        "values": [
+                          72,
+                          5
+                        ]
+                      },
+                      "description": "Showcases strong customer loyalty and retention, indicating product stickiness and value.",
+                      "options": {
+                        "y_axis_label": "Score / Percentage",
+                        "title": "Customer Loyalty & Retention"
+                      }
+                    }
+                  }
+                },
+                {
+                  "slide_number": 7,
+                  "title": "Proactive Risk Management for Sustainable Growth",
+                  "subtitle": "Identifying potential challenges and outlining robust strategies to ensure continued success and strategic partnership resilience.",
+                  "content_points": [
+                    "Technology & R&D Risk: Rapid evolution of AI requires continuous innovation. Mitigation: Dedicated 60% engineering team, ongoing R&D investment, strategic university partnerships, agile development cycles.",
+                    "Market Adoption & Competition Risk: Competitive landscape and enterprise adoption cycles can be slow. Mitigation: Strong NPS (72) and low churn (5%) confirm product-market fit; focus on consultative sales and integration support; develop strategic partnerships for accelerated market access.",
+                    "Data Security & Compliance Risk: Handling sensitive enterprise data requires stringent security. Mitigation: ISO 27001 & SOC 2 compliance (in progress), robust data encryption, privacy-by-design architecture, dedicated security team.",
+                    "Talent Acquisition Risk: Attracting and retaining top AI talent is challenging. Mitigation: Competitive compensation, strong company culture, emphasis on cutting-edge research, flexible work policies, talent pipeline development.",
+                    "Dependency on Strategic Partner Integration: Over-reliance on a single strategic partner's platform or distribution. Mitigation: Maintain modular architecture for multiple integration paths, diversify strategic partnerships over time, foster independent market presence and brand."
+                  ],
+                  "key_metrics": [
+                    "Engineering Team Size: 15 (60% of total team)"
+                  ],
+                  "data_visualizations_needed": [
+                    "Risk & Mitigation Matrix: Table listing identified risks and corresponding mitigation strategies."
+                  ],
+                  "chart_specifications": {
+                    "Risk & Mitigation Matrix": {
+                      "type": "table",
+                      "data": {
+                        "headers": [
+                          "Risk Category",
+                          "Specific Risk",
+                          "Mitigation Strategy"
+                        ],
+                        "rows": [
+                          [
+                            "Technology & R&D",
+                            "AI Innovation Pace",
+                            "60% Engineering Team, R&D Investment, Agile Dev"
+                          ],
+                          [
+                            "Market & Competition",
+                            "Adoption & Landscape",
+                            "High NPS/Low Churn, Consultative Sales, Strategic Partnerships"
+                          ],
+                          [
+                            "Data Security",
+                            "Enterprise Data Handling",
+                            "ISO/SOC2 (in-progress), Encryption, Privacy-by-Design"
+                          ],
+                          [
+                            "Talent",
+                            "Attracting AI Experts",
+                            "Competitive Comp, Strong Culture, R&D Focus"
+                          ],
+                          [
+                            "Partnership",
+                            "Integration Dependency",
+                            "Modular Architecture, Diverse Partnerships, Brand"
+                          ]
+                        ]
+                      },
+                      "description": "A clear, structured overview of potential risks and Sia's proactive strategies to address them, demonstrating preparedness."
+                    }
+                  }
+                },
+                {
+                  "slide_number": 8,
+                  "title": "Series A Extension: Fueling Strategic Expansion & Integration",
+                  "subtitle": "Seeking $15 Million to accelerate market penetration and deepen strategic partnerships.",
+                  "content_points": [
+                    "Investment Ask: Seeking $15 Million in a Series A extension round to capitalize on current momentum and strategic growth opportunities.",
+                    "Strategic Alignment Focus: We are specifically looking for partners who can offer more than capital – access to distribution channels, complimentary technology integration, and deep industry expertise.",
+                    "Key Use of Funds Breakdown:",
+                    "    40% Product Development & R&D: Accelerate new feature development, expand AI capabilities, and enhance integration frameworks for strategic partners.",
+                    "    30% Sales & Marketing Expansion: Scale enterprise sales team, expand into new verticals, and co-market with strategic partners.",
+                    "    20% Global Market Expansion: Initiate international pilots and build localized support for strategic deployment.",
+                    "    10% Operational Scale & Talent: Strengthen infrastructure and recruit key talent for strategic growth initiatives.",
+                    "Expected Outcomes: Achieve $8.75M ARR by Year 3, secure 3-5 major strategic partnerships, and solidify market leadership in specialized AI solutions."
+                  ],
+                  "key_metrics": [
+                    "Investment Ask: $15 Million",
+                    "Use of Funds Breakdown"
+                  ],
+                  "data_visualizations_needed": [
+                    "Use of Funds: Pie chart."
+                  ],
+                  "chart_specifications": {
+                    "Use of Funds": {
+                      "type": "pie_chart",
+                      "data": {
+                        "labels": [
+                          "Product Dev & R&D",
+                          "Sales & Marketing",
+                          "Global Market Expansion",
+                          "Operational Scale & Talent"
+                        ],
+                        "values": [
+                          40,
+                          30,
+                          20,
+                          10
+                        ]
+                      },
+                      "description": "Clearly illustrates how the requested funds will be strategically allocated to maximize growth and foster partnerships.",
+                      "options": {
+                        "title": "Use of Funds ($15M Series A Extension)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "slide_number": 9,
+                  "title": "Visionary Leadership Driving AI Innovation",
+                  "subtitle": "A seasoned team with deep expertise in AI, enterprise software, and market growth.",
+                  "content_points": [
+                    "Founding Team: Led by industry veterans with deep expertise in AI, enterprise SaaS, and successful exits, driving Sia's vision and execution.",
+                    "Experienced Management: Key functional leads bring a wealth of experience from successful tech companies, ensuring robust product delivery and market penetration.",
+                    "Deep Technical Bench: 15 dedicated engineers (60% of total team) with specialized AI/ML and enterprise software development expertise, ensuring rapid innovation and robust product delivery and integration capabilities.",
+                    "Strategic Advisors: A strong advisory board with connections and expertise relevant to strategic investors, offering guidance on market entry, technology roadmaps, and corporate development.",
+                    "Culture of Innovation & Integration: Foster a collaborative, results-driven culture focused on solving complex enterprise challenges and building synergistic relationships with partners."
+                  ],
+                  "key_metrics": [
+                    "Team Size: 25 employees",
+                    "Engineering Team Size: 15 (60% of total)"
+                  ],
+                  "data_visualizations_needed": [
+                    "Team Photo Collage: Individual headshots of key leadership and advisors with short bios."
+                  ],
+                  "chart_specifications": {
+                    "Team Photo Collage": {
+                      "type": "image_grid",
+                      "data": "Headshots of CEO, CTO, CPO, Head of Sales, and 1-2 key advisors, each with a brief title/bio.",
+                      "description": "Showcases the experience and caliber of Sia's leadership and advisory team, reinforcing confidence."
+                    }
+                  }
+                },
+                {
+                  "slide_number": 10,
+                  "title": "Appendix: Deeper Dive into Sia's Foundations",
+                  "subtitle": "Comprehensive data supporting our performance, projections, and strategic potential.",
+                  "content_points": [
+                    "Detailed Revenue History by Quarter/Year: Provides granular insight into growth trajectory.",
+                    "Detailed User Growth by Month/Quarter: Shows customer acquisition and retention trends.",
+                    "Customer Testimonials / Case Studies: Validation of product value and impact.",
+                    "IP Portfolio Summary: Outlines patents, trademarks, and proprietary technology.",
+                    "Technology Stack Overview: Details the underlying technologies and architecture, relevant for integration discussions.",
+                    "Detailed Financial Projections: Comprehensive P&L and Cash Flow statements.",
+                    "Full Team Bios: Extended profiles for all key personnel and advisors.",
+                    "Market Research & Competitive Landscape Analysis: Further data on market dynamics and competitive intelligence."
+                  ],
+                  "key_metrics": [
+                    "All historical financial and operational data"
+                  ],
+                  "data_visualizations_needed": [
+                    "Revenue History Chart (detailed)",
+                    "User Growth Chart (detailed)",
+                    "Funding Rounds Timeline"
+                  ],
+                  "chart_specifications": {
+                    "Revenue History Chart": {
+                      "type": "line_chart",
+                      "data": {
+                        "labels": [
+                          "Q1'22",
+                          "Q2'22",
+                          "Q3'22",
+                          "Q4'22",
+                          "Q1'23",
+                          "Q2'23",
+                          "Q3'23",
+                          "Q4'23"
+                        ],
+                        "values": [
+                          0.1,
+                          0.25,
+                          0.4,
+                          0.65,
+                          0.8,
+                          1.2,
+                          1.8,
+                          2.5
+                        ]
+                      },
+                      "description": "A granular view of Sia's revenue growth over time, demonstrating consistent performance.",
+                      "options": {
+                        "y_axis_label": "Revenue (Millions $)",
+                        "title": "Quarterly Revenue History"
+                      }
+                    },
+                    "User Growth Chart": {
+                      "type": "line_chart",
+                      "data": {
+                        "labels": [
+                          "Q1'22",
+                          "Q2'22",
+                          "Q3'22",
+                          "Q4'22",
+                          "Q1'23",
+                          "Q2'23",
+                          "Q3'23",
+                          "Q4'23"
+                        ],
+                        "values": [
+                          500,
+                          1200,
+                          2500,
+                          4800,
+                          7500,
+                          10200,
+                          12800,
+                          15000
+                        ]
+                      },
+                      "description": "Visualizes the steady increase in monthly active users, reflecting strong adoption.",
+                      "options": {
+                        "y_axis_label": "Monthly Active Users",
+                        "title": "Quarterly User Growth"
+                      }
+                    },
+                    "Funding Rounds Timeline": {
+                      "type": "timeline",
+                      "data": [
+                        {
+                          "date": "2022-01",
+                          "event": "Seed Round: $2M"
+                        },
+                        {
+                          "date": "2023-06",
+                          "event": "Series A: $10M"
+                        }
+                      ],
+                      "description": "Shows the company's funding journey and investor confidence over time.",
+                      "options": {
+                        "title": "Sia's Funding Milestones"
+                      }
+                    }
+                  }
+                }
+              ],
+              "charts_data": {},
+              "speaker_notes": {
+                "slide_1": "Good morning/afternoon, everyone. We are Sia, and we are at the forefront of powering Enterprise AI Transformation. Our mission is to deliver unparalleled intelligence and efficiency to large organizations through our proprietary B2B SaaS AI solutions. What you'll see today is not just a high-growth startup, but a strategic asset. We're disrupting the Enterprise AI space, addressing critical intelligence gaps that cost businesses billions. We've achieved explosive growth, boasting $2.5 million in ARR with a phenomenal 212.5% year-over-year increase and an excellent 78% gross margin, driven by unit economics that deliver a 14.1x LTV to CAC ratio. We're tapping into a massive $50 billion total addressable market with our defensible AI solution. Our core strength lies in our proprietary technology – unique AI algorithms and a scalable SaaS architecture that offers a significant competitive edge and immense potential for seamless integration. Today, we're seeking strategic partners who can see the synergy, partners who can help us accelerate market penetration and unlock new, shared value streams through deep integration.",
+                "slide_2": "Enterprises today face an AI imperative. They're drowning in vast, unstructured data, leading to missed insights and inefficient decision-making. Generic AI tools simply don't cut it; they lack the domain-specific intelligence and seamless integration required for complex enterprise workflows. This results in high operational costs and slow adaptation to market changes. Sia is the answer. Our solution is Intelligent Automation for the Modern Enterprise. Our proprietary AI-powered B2B SaaS platform excels at Intelligent Data Unification, ingesting and synthesizing diverse data to transform raw information into structured, actionable intelligence. We don't offer a one-size-fits-all approach; we deploy Domain-Specific AI Models, tailored to precise enterprise functions, from predictive analytics to operational optimization. Crucially, Sia is built for Seamless Integration. We enhance existing enterprise systems without costly overhauls, providing Automated Decision Support that empowers organizations with real-time insights for proactive decision-making and efficiency improvements. We are the strategic layer that makes existing infrastructure truly intelligent.",
+                "slide_3": "The opportunity for Sia, and for a strategic partner, is immense. We are poised to dominate the exploding Enterprise AI market. This isn't just a trend; it's the future of how businesses operate. We're looking at a Total Addressable Market of $50 Billion, with a Serviceable Addressable Market of $8 Billion today, and it's driven by the unwavering global push for digital transformation. This market isn't just large; it's expanding at an incredible 25% annually, creating continuous and escalating demand for advanced solutions like Sia. With our current market share at just 0.002%, the runway for growth is staggering. This presents a unique and compelling strategic entry point for partners. By integrating with Sia, you immediately gain access to or expand your footprint in this high-value, high-growth segment, leveraging our proven technology and traction.",
+                "slide_4": "Our business model is built for sustainable, high-margin growth and seamless strategic integration. Sia operates on a scalable B2B SaaS model, generating predictable, recurring revenue streams based on user count, data volume, and feature tiers. This model has already delivered exceptional results: a robust 78% gross margin, underscoring the inherent profitability and scalability of our software-centric approach. We also boast exceptional unit economics, with an industry-leading LTV to CAC ratio of 14.1x and a manageable 5% churn rate – these metrics demonstrate incredibly efficient customer acquisition and retention, ensuring sustainable growth. Beyond our core subscriptions, there are significant opportunities for value-added services, including professional services, custom integrations, and specialized module development, which are perfect avenues for co-creation with a strategic partner. Our architecture is modular, making integration with your existing platforms and customer base not just possible, but highly efficient, creating mutual value and expanding revenue opportunities.",
+                "slide_5": "Our financials clearly demonstrate explosive growth and a strong path to profitability. We've achieved rapid revenue acceleration, reaching $2.5 million in ARR with a remarkable 212.5% year-over-year growth, validating our product-market fit. This growth is underpinned by healthy margins, with a consistent 78% gross margin reflecting our operational efficiency. Our sustainable unit economics, highlighted by the 14.1x LTV/CAC ratio and 5% churn, ensure we can scale efficiently. Looking forward, we have aggressive, yet achievable, projections: we foresee reaching $8.75 million in ARR by Year 3 and $19.6 million by Year 5, driven by continued market expansion and the strategic partnerships we're actively seeking. Furthermore, with an 18-month runway and a $180,000 monthly burn, we demonstrate prudent capital management, ensuring we have the resources to execute our plan effectively and integrate thoughtfully with strategic partners.",
+                "slide_6": "In a dynamic AI landscape, Sia offers a truly differentiated advantage and a strong, defensible market position. What sets us apart is our Superior AI and Domain Expertise. Unlike generic AI, Sia offers highly specialized, proprietary AI models precisely tailored for complex enterprise environments, which is a critical need for large organizations. We focus on Seamless Integration, not disruption. Our platform is built for compatibility, minimizing client friction and maximizing the value of their existing tech investments, a clear advantage over competitors who demand costly overhauls. Our high NPS of 72 and low 5% churn rate are strong customer validations, proving superior product value and sticky integrations. Ultimately, our Strategic Value Proposition is that we don't just solve problems; we integrate to create entirely new capabilities, significantly enhancing competitive advantages and unlocking unforeseen efficiencies for our partners and their customers. We are also actively building a robust IP portfolio, developing and protecting core intellectual property to create strong barriers to entry in this rapidly evolving space.",
+                "slide_7": "We operate with a proactive approach to risk management, ensuring sustainable growth and resilience for our strategic partnerships. We acknowledge the Technology & R&D Risk in the rapidly evolving AI space, mitigating this with a dedicated 60% engineering team, continuous R&D investment, strategic university partnerships, and agile development cycles. For Market Adoption & Competition Risk, our strong NPS of 72 and low churn of 5% already confirm robust product-market fit. We mitigate further through consultative sales, integration support, and the strategic partnerships we are forging for accelerated market access. Data Security & Compliance Risk is paramount when handling sensitive enterprise data. We are actively pursuing ISO 27001 & SOC 2 compliance, implementing robust data encryption, privacy-by-design architecture, and maintaining a dedicated security team. Talent Acquisition Risk is common in AI; we counter this with competitive compensation, a strong culture focused on cutting-edge research, and flexible work policies. Finally, a unique risk for strategic partnerships is potential over-reliance on a single partner. We mitigate this by maintaining a modular architecture for multiple integration paths, planning to diversify strategic partnerships over time, and fostering our independent market presence and brand.",
+                "slide_8": "Today, we are seeking a $15 Million Series A extension to fuel our strategic expansion and deepen the impactful partnerships we envision. Our investment ask is not just for capital; we are specifically looking for strategic partners who can offer more than just funding—access to vital distribution channels, complimentary technology integration, and deep industry expertise. The use of these funds is clearly defined: 40% will be allocated to Product Development & R&D, allowing us to accelerate new feature development, expand our AI capabilities, and enhance integration frameworks tailored for strategic partners. 30% is earmarked for Sales & Marketing Expansion to scale our enterprise sales team, expand into new verticals, and crucially, enable co-marketing initiatives with our strategic partners. 20% will facilitate Global Market Expansion, initiating international pilots and building localized support for strategic deployments. The remaining 10% will be for Operational Scale & Talent, strengthening our infrastructure and recruiting key talent to support our ambitious strategic growth initiatives. With this investment, we expect to achieve $8.75 million ARR by Year 3, secure 3-5 major strategic partnerships, and solidify our market leadership in specialized AI solutions, delivering significant returns and synergy for all involved.",
+                "slide_9": "Behind Sia's impressive growth and innovative technology is a visionary leadership team with deep expertise. Our founding team comprises industry veterans with extensive experience in AI, enterprise SaaS, and a track record of successful ventures, driving Sia's strategic direction and execution. This core leadership is supported by experienced management across all key functions, ensuring robust product delivery, effective market penetration, and seamless operational excellence. A critical strength is our deep technical bench: 15 dedicated engineers, representing 60% of our total team, with specialized AI/ML and enterprise software development expertise. This talent ensures rapid innovation, robust product delivery, and, importantly, the agility required for complex strategic integrations. We also benefit from a strong advisory board featuring prominent figures with connections and expertise directly relevant to strategic investors, offering invaluable guidance on market entry, technology roadmaps, and corporate development. Together, we foster a culture of innovation and integration, focused on solving complex enterprise challenges and building synergistic, lasting relationships with our partners.",
+                "slide_10": "To further support our presentation, we've provided a comprehensive appendix with supporting data. This section offers a deeper dive into Sia's foundations and can address any more granular questions you may have. Here, you'll find detailed revenue history by quarter, illustrating our consistent growth trajectory, alongside detailed user growth by month, showcasing our strong customer acquisition and retention. We've also included customer testimonials and case studies that validate our product's value and impact in real-world scenarios. For those interested in our technological distinctiveness, we have an IP portfolio summary and an overview of our technology stack, highlighting its robustness and integration capabilities. You'll also find comprehensive financial projections, including detailed P&L and cash flow statements, and extended bios for our full team and advisors. We're happy to walk through any of these details during the Q&A session or in a follow-up discussion. Thank you."
+              },
+              "presentation_metadata": {
+                "investor_type": "Strategic",
+                "presentation_style": "pitch",
+                "slide_count": 10,
+                "estimated_duration": "20-30 minutes",
+                "generated_at": "2025-09-21T11:38:42.031067"
+              },
+              "formatting": {
+                "template": "professional_investor",
+                "color_scheme": "corporate_blue",
+                "font_family": "Arial, Helvetica",
+                "slide_dimensions": "16:9"
+              }
+            }
+          },
+          "detailed_reports": {
+            "due_diligence": {
+              "report_content": {
+                "title": "due_diligence Analysis Report",
+                "summary": "Processing analysis data..."
+              },
+              "charts": [],
+              "pdf_config": {
+                "page_size": "A4",
+                "orientation": "portrait",
+                "margins": {
+                  "top": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "right": 1
+                },
+                "header": {
+                  "include": true,
+                  "text": "Due Diligence Report",
+                  "font_size": 12
+                },
+                "footer": {
+                  "include": true,
+                  "page_numbers": true,
+                  "date": "September 21, 2025"
+                },
+                "fonts": {
+                  "heading": "Arial Bold",
+                  "body": "Arial",
+                  "caption": "Arial Italic"
+                }
+              },
+              "metadata": {
+                "report_type": "due_diligence",
+                "template_id": "detailed",
+                "page_count": 0,
+                "generated_at": "2025-09-21T11:39:14.326845",
+                "version": "1.0"
+              },
+              "benchmarks": {
+                "industry_comparisons": true,
+                "peer_analysis": true,
+                "market_standards": true,
+                "regulatory_compliance": true
+              }
+            },
+            "investment_memo": {
+              "report_content": {
+                "title": "Investment Memo: Sia - Pioneering Enterprise AI Solutions",
+                "date": "October 26, 2023",
+                "prepared_for": "Investment Committee",
+                "prepared_by": "Investment Analyst Team",
+                "sections": [
+                  {
+                    "id": "investment_summary",
+                    "title": "1. Investment Summary & Key Highlights",
+                    "content": "Sia represents a compelling Series A investment opportunity within the rapidly expanding Artificial Intelligence industry, specifically targeting enterprise-grade B2B SaaS solutions. Founded in 2021 and based in San Francisco, CA, Sia has demonstrated exceptional product-market fit and operational efficiency, evidenced by its impressive financial and operational metrics. The company's technology addresses critical needs within a vast and growing market, positioning it for significant future expansion. We recommend investing in Sia, anticipating substantial returns driven by its disruptive technology, strong leadership, and advantageous market position.\n\n**Key Highlights:**\n*   **Exceptional Growth:** Achieved 212.5% year-over-year revenue growth, reaching $2.5 million in current revenue.\n*   **Robust Financials:** Boasts an outstanding 78% gross margin and a healthy 18-month runway.\n*   **Strong Unit Economics:** A remarkable Customer Lifetime Value (LTV) to Customer Acquisition Cost (CAC) ratio of ~14.1x ($12,000 LTV / $850 CAC), indicating highly efficient and profitable customer acquisition.\n*   **Large & Growing Market:** Operates within a $50 billion Total Addressable Market (TAM) and an $8 billion Serviceable Addressable Market (SAM), projected to grow at a 25% CAGR.\n*   **High Customer Satisfaction:** Demonstrated by a Net Promoter Score (NPS) of 72 and a low churn rate of 5%.\n*   **Talented Team:** A focused team of 25, with a strong engineering core (15 employees).\n*   **Competitive Position:** Identified as 'Strong' within its niche, with ample room for market share expansion (currently 0.002%)."
+                  },
+                  {
+                    "id": "company_description",
+                    "title": "2. Company Description & Value Proposition",
+                    "content": "Sia is an innovative B2B SaaS company founded in 2021, specializing in Artificial Intelligence solutions for enterprise clients. Headquartered in San Francisco, CA, Sia's core mission is to empower businesses with advanced AI capabilities, transforming operational efficiencies, enhancing decision-making, and driving competitive advantage.\n\n**Value Proposition:** Sia provides sophisticated, tailored AI solutions that integrate seamlessly into existing enterprise workflows. Unlike generic AI tools, Sia focuses on delivering measurable business outcomes through deep industry understanding and cutting-edge technology. This bespoke approach solves complex enterprise challenges, leading to significant ROI for its customers. The company’s strong engineering team (15 out of 25 employees) underscores its commitment to technological innovation and product excellence."
+                  },
+                  {
+                    "id": "market_opportunity",
+                    "title": "3. Market Opportunity & Growth Drivers",
+                    "content": "The Artificial Intelligence market is experiencing unprecedented growth, driven by digital transformation initiatives and the increasing recognition of AI's strategic importance across all industries. Sia is ideally positioned to capitalize on this trend.\n\n**Market Size & Growth:**\n*   **Total Addressable Market (TAM):** $50 billion\n*   **Serviceable Addressable Market (SAM):** $8 billion\n*   **Market Growth Rate:** 25% CAGR\n\n**Growth Drivers:**\n*   **Enterprise Adoption:** Enterprises are rapidly adopting AI to automate processes, gain insights from data, improve customer experience, and develop new products.\n*   **Data Proliferation:** The explosion of data fuels the demand for AI systems capable of processing and extracting value from it.\n*   **Cloud Computing:** Accessibility and scalability of cloud infrastructure enable easier deployment and management of AI solutions.\n*   **Talent Gap:** Many organizations lack in-house AI expertise, creating a strong demand for specialized B2B AI solution providers like Sia.\n*   **Competitive Pressure:** Businesses must embrace AI to remain competitive, further driving market demand."
+                  },
+                  {
+                    "id": "financial_performance",
+                    "title": "4. Financial Performance & Projections",
+                    "content": "Sia exhibits a robust financial profile characterized by high growth, strong margins, and efficient capital deployment. The company's historical performance validates its business model and future potential.\n\n**Current Financial Metrics (as of latest period):**\n*   **Current Revenue:** $2,500,000\n*   **Previous Year Revenue:** $800,000\n*   **Revenue Growth Rate (YoY):** 212.5%\n*   **Gross Margin:** 78% (indicative of strong software economics)\n*   **Monthly Burn Rate:** $180,000\n*   **Runway:** 18 months\n*   **Total Funding Raised:** $12,000,000 (Seed & Series A)\n*   **Last Valuation:** $45,000,000\n\n**Operational Efficiency:**\n*   **Customer Acquisition Cost (CAC):** $850\n*   **Customer Lifetime Value (LTV):** $12,000\n*   **LTV:CAC Ratio:** ~14.1x (highly attractive unit economics)\n*   **Churn Rate:** 5% (low for B2B SaaS, indicating high customer satisfaction and stickiness)\n\n**Historical Performance:** (Refer to charts below for visual representation)\n\n**Projections:**\nGiven Sia's current trajectory, strong market tailwinds, and efficient unit economics, we project continued aggressive revenue growth. While the 212.5% YoY growth rate may normalize slightly as the company scales, we anticipate revenue to double within the next 12-18 months, driven by expanded sales efforts, new product features, and continued market penetration. Sustained high gross margins and controlled burn will lead to increased capital efficiency and a clear path to profitability."
+                  },
+                  {
+                    "id": "competitive_advantages",
+                    "title": "5. Competitive Advantages & Moats",
+                    "content": "Sia has cultivated several distinct competitive advantages that contribute to its 'Strong' competitive position:\n\n*   **Proprietary Technology & Expertise:** With 15 dedicated engineers, Sia is likely developing proprietary AI models and platforms specifically optimized for enterprise use cases. This deep technical expertise creates a significant barrier to entry.\n*   **Superior Product & Customer Experience:** An NPS of 72 and a low 5% churn rate underscore exceptional customer satisfaction and product utility. This leads to strong retention and word-of-mouth growth.\n*   **Exceptional Unit Economics (LTV:CAC):** A 14.1x LTV:CAC ratio is best-in-class for B2B SaaS, allowing Sia to invest aggressively in growth while maintaining profitability, outcompeting peers with higher acquisition costs or lower retention.\n*   **Data Advantage:** As an AI company, Sia likely leverages proprietary data or customer data (with permission) to continuously improve its algorithms and solution effectiveness, creating a self-reinforcing cycle of improvement.\n*   **Early Mover in Niche:** While the overall AI market is broad, Sia's focus on specific 'Enterprise AI Solutions' allows it to build deep domain expertise and capture market share in high-value segments.\n*   **Scalable B2B SaaS Model:** The inherent scalability of the SaaS model, combined with high gross margins, ensures that growth can be achieved efficiently without a proportional increase in costs."
+                  },
+                  {
+                    "id": "risks_mitigation",
+                    "title": "6. Key Risks & Mitigation Plans",
+                    "content": "Investing in high-growth startups involves inherent risks. We have identified key risks associated with Sia and outline their mitigation strategies:\n\n*   **Market Competition (Risk):** The AI industry is highly competitive with numerous startups and large tech giants. \n    *   **Mitigation:** Sia's strong product-market fit, superior unit economics, high NPS, and focused enterprise strategy differentiate it. Continuous R&D and strategic partnerships will maintain its edge.\n*   **Talent Acquisition & Retention (Risk):** Attracting and retaining top AI talent in San Francisco is challenging and expensive.\n    *   **Mitigation:** Sia's strong company culture, innovative projects, competitive compensation, and equity incentives are crucial for talent retention. A diverse hiring pipeline also helps.\n*   **Scaling Operations (Risk):** Rapid growth can strain operational infrastructure, customer support, and internal processes.\n    *   **Mitigation:** Proactive investment in scalable infrastructure, automation, robust management hires, and clear process documentation are key to smooth scaling.\n*   **Client Concentration (Risk):** Early-stage B2B companies often have a few large clients that contribute disproportionately to revenue.\n    *   **Mitigation:** Sia is actively diversifying its client base through targeted sales and marketing efforts, expanding its market reach within the $8B SAM.\n*   **Technological Obsolescence / Rapid Change (Risk):** The AI landscape evolves quickly, risking technology becoming outdated.\n    *   **Mitigation:** Sia's engineering-heavy team and R&D focus ensure it stays at the forefront of AI innovation, continuously updating its product roadmap to incorporate new advancements and anticipating market needs.\n*   **Regulatory & Ethical AI Concerns (Risk):** The evolving regulatory landscape for AI, particularly concerning data privacy and ethical use, could impact operations.\n    *   **Mitigation:** Sia maintains a proactive stance on compliance, engaging legal counsel and adhering to best practices for data governance and ethical AI development."
+                  },
+                  {
+                    "id": "investment_structure",
+                    "title": "7. Investment Structure & Returns Analysis",
+                    "content": "Sia's current Series A stage, coupled with its impressive metrics and runway, indicates it is well-positioned for its next growth capital infusion.\n\n**Current Context:**\n*   **Last Valuation:** $45,000,000 (post-money from previous Series A round).\n*   **Total Funding Raised:** $12,000,000.\n*   **Runway:** 18 months at current burn rate ($180,000/month means ~$3.24M cash remaining).\n\n**Investment Opportunity:** We are evaluating an opportunity to participate in Sia's next funding round (potentially an extension of Series A or an early Series B), seeking to raise capital for aggressive market expansion, further product development, and scaling of its sales and marketing teams. A typical round size for a company at this stage, with this growth profile, could range from $15M to $25M.\n\n**Use of Proceeds:** Funds would primarily be allocated to:\n*   Accelerating customer acquisition and expanding into new enterprise verticals.\n*   Investing further in R&D to enhance product features and maintain technological leadership.\n*   Scaling engineering, sales, and customer success teams to support rapid growth.\n\n**Returns Analysis:** Based on Sia's exceptional revenue growth (212.5%), high gross margin (78%), efficient unit economics (14.1x LTV:CAC), and the vast and growing TAM/SAM, we project significant valuation uplift. Comparable high-growth B2B SaaS AI companies have achieved exit multiples ranging from 10x to 20x annual recurring revenue. Assuming continued execution and market leadership, Sia presents an opportunity for 5-10x+ returns on investment within a 3-7 year horizon, driven by revenue expansion and multiple arbitrage as the company matures and achieves greater scale."
+                  },
+                  {
+                    "id": "exit_strategy",
+                    "title": "8. Exit Strategy & Timeline",
+                    "content": "The exit strategy for Sia is primarily focused on a strategic acquisition, with an initial public offering (IPO) as a longer-term, secondary option.\n\n**Primary Exit Path: Strategic Acquisition (3-5 Years)**\n*   **Acquirers:** Large technology companies and enterprise software providers are aggressively seeking to acquire innovative AI capabilities and customer bases to strengthen their offerings and competitive positions. Potential acquirers include:\n    *   **Cloud Providers:** Microsoft, Google, Amazon Web Services (AWS)\n    *   **Enterprise Software Giants:** Salesforce, Oracle, SAP, IBM\n    *   **Data Analytics & AI Platforms:** Palantir, Databricks, Snowflake\n*   Sia's B2B SaaS model, high LTV, low churn, and deep integration with enterprise clients make it a highly attractive target for these strategic buyers.\n\n**Secondary Exit Path: Initial Public Offering (5-7+ Years)**\n*   Should Sia achieve significant scale (e.g., $100M+ ARR) and sustained profitability, an IPO becomes a viable option. The strong public market appetite for high-growth, profitable AI SaaS companies provides a favorable environment for this outcome. This would allow existing investors to realize liquidity through public market trading."
+                  },
+                  {
+                    "id": "appendices",
+                    "title": "Appendices",
+                    "content": "Supporting documentation is available upon request, including:\n*   Detailed Financial Statements & Projections\n*   Product Roadmap & Technical Specifications\n*   Management Team Biographies\n*   Customer Testimonials & Case Studies\n*   Legal & IP Documentation"
+                  }
+                ]
+              },
+              "charts": [],
+              "pdf_config": {
+                "page_size": "A4",
+                "orientation": "portrait",
+                "margins": {
+                  "top": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "right": 1
+                },
+                "header": {
+                  "include": true,
+                  "text": "Investment Memo Report",
+                  "font_size": 12
+                },
+                "footer": {
+                  "include": true,
+                  "page_numbers": true,
+                  "date": "September 21, 2025"
+                },
+                "fonts": {
+                  "heading": "Arial Bold",
+                  "body": "Arial",
+                  "caption": "Arial Italic"
+                }
+              },
+              "metadata": {
+                "report_type": "investment_memo",
+                "template_id": "executive",
+                "page_count": 9,
+                "generated_at": "2025-09-21T11:39:59.564896",
+                "version": "1.0"
+              },
+              "benchmarks": {
+                "industry_comparisons": true,
+                "peer_analysis": true,
+                "market_standards": true,
+                "regulatory_compliance": true
+              }
+            },
+            "board_report": {
+              "report_content": {
+                "title": "board_report Analysis Report",
+                "summary": "Processing analysis data..."
+              },
+              "charts": [],
+              "pdf_config": {
+                "page_size": "A4",
+                "orientation": "portrait",
+                "margins": {
+                  "top": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "right": 1
+                },
+                "header": {
+                  "include": true,
+                  "text": "Board Report Report",
+                  "font_size": 12
+                },
+                "footer": {
+                  "include": true,
+                  "page_numbers": true,
+                  "date": "September 21, 2025"
+                },
+                "fonts": {
+                  "heading": "Arial Bold",
+                  "body": "Arial",
+                  "caption": "Arial Italic"
+                }
+              },
+              "metadata": {
+                "report_type": "board_report",
+                "template_id": "standard",
+                "page_count": 0,
+                "generated_at": "2025-09-21T11:41:01.302650",
+                "version": "1.0"
+              },
+              "benchmarks": {
+                "industry_comparisons": true,
+                "peer_analysis": true,
+                "market_standards": true,
+                "regulatory_compliance": true
+              }
+            }
+          },
+          "dashboard_components": {
+            "real_time_metrics": {
+              "enabled": true,
+              "refresh_interval": 30,
+              "key_indicators": [
+                "financial_health",
+                "market_potential",
+                "team_strength",
+                "technology_score",
+                "risk_level"
+              ],
+              "alert_thresholds": {
+                "high_risk": 80,
+                "medium_risk": 60,
+                "low_risk": 40
+              }
+            },
+            "interactive_filters": {
+              "time_period": [
+                "1M",
+                "3M",
+                "6M",
+                "1Y",
+                "3Y",
+                "5Y"
+              ],
+              "metrics_categories": [
+                "Financial",
+                "Market",
+                "Team",
+                "Technology",
+                "Risk"
+              ],
+              "comparison_modes": [
+                "Historical",
+                "Peer",
+                "Industry",
+                "Projections"
+              ]
+            },
+            "export_options": {
+              "formats": [
+                "PDF",
+                "PowerPoint",
+                "Excel",
+                "PNG",
+                "SVG"
+              ],
+              "templates": [
+                "Executive",
+                "Detailed",
+                "Technical",
+                "Investor"
+              ]
+            }
+          },
+          "processing_summary": {
+            "start_time": "2025-09-21T11:34:07.618217",
+            "components_generated": 10,
+            "errors_encountered": [],
+            "end_time": "2025-09-21T11:41:01.302879",
+            "total_duration": "Generated in real-time",
+            "success_rate": 100.0
+          }
+        }
+      },
+      "distribution": {
+        "status": "success",
+        "data": {
+          "execution_summary": {
+            "start_time": "2025-09-21T11:41:01.305554",
+            "components_executed": [],
+            "success_count": 0,
+            "error_count": 0,
+            "warnings": [
+              "Investor portal generation skipped - insufficient data",
+              "Startup portal generation skipped - insufficient data",
+              "Smart notifications generation skipped - insufficient data",
+              "External integrations management skipped - insufficient configuration"
+            ],
+            "end_time": "2025-09-21T11:41:01.305584",
+            "total_execution_time": 1.8e-05
+          },
+          "investor_portal": {},
+          "startup_portal": {},
+          "notifications": {},
+          "integrations": {},
+          "system_health": {
+            "overall_status": "healthy",
+            "total_components": 0,
+            "successful_components": 0,
+            "failed_components": 0,
+            "warnings_count": 4,
+            "execution_time": 1.8e-05,
+            "timestamp": "2025-09-21T11:41:01.305581"
+          }
+        }
+      },
+      "genai_analysis": {
+        "status": "success",
+        "data": {
+          "executive_analysis": {
+            "title": "Startup Evaluation System Performance Executive Summary",
+            "summary_date": "2023-10-27",
+            "system_performance": {
+              "overall_status": "CRITICAL_FAILURE_TO_DELIVER",
+              "effectiveness_assessment": "The system is currently ineffective due to critical failures in key output components. While Advanced Analytics shows potential, the inability to visualize or distribute results renders the overall system functionally unusable for its intended purpose.",
+              "reliability_assessment": "Reliability is low. The Advanced Analytics component has a 66.7% success rate (1 error out of 3 attempts), which is inadequate for critical decisions. The Visualization Hub, despite 'generating' components, fails to 'complete' any, leading to zero actionable outputs. The Distribution component is consequently inactive.",
+              "component_breakdown": {
+                "advanced_analytics": {
+                  "status": "MODERATE_RELIABILITY_CONCERNS",
+                  "details": "Achieved a 'SECOND_LOOK' recommendation, but with a 33.3% error rate (1 error out of 3 tasks), indicating inconsistency. Needs improvement for trustworthy decision-making."
+                },
+                "visualization_hub": {
+                  "status": "CRITICAL_FAILURE",
+                  "details": "Generated 10 components successfully but completed 0. This means no visualizations are being produced or delivered, making the component functionally useless despite a misleading '100% success rate' for generation."
+                },
+                "output_distribution": {
+                  "status": "INACTIVE_DUE_TO_UPSTREAM_FAILURE",
+                  "details": "Zero successful distributions and zero errors. This indicates no outputs were available or ready for distribution, a direct consequence of the Visualization Hub's failure."
+                }
+              }
+            },
+            "key_insights": {
+              "most_critical_finding": "The Visualization Hub is a complete failure point, generating components but completing none. This prevents the system from delivering any visual insights or complete reports, severely undermining its value.",
+              "secondary_findings": [
+                "Advanced Analytics reliability (66.7% success) is insufficient for high-stakes investment decisions and requires immediate attention to reduce errors.",
+                "The system's inability to deliver visualizations directly causes the Output Distribution component to remain inert, preventing the sharing of any evaluation results.",
+                "Current success metrics are misleading; a '100% success rate' for generation is meaningless if actual completion and delivery is zero."
+              ],
+              "recommendation_summary": "Prioritize immediate remediation of the Visualization Hub. Improve Advanced Analytics reliability. Redefine success metrics to reflect true output delivery."
+            },
+            "investment_verdict": {
+              "recommendation": "REJECT (for immediate deployment) / HOLD (pending critical fixes)",
+              "reasoning": "The system, in its current state, is fundamentally broken and cannot fulfill its purpose. While the Analytics component provides a basic recommendation, the complete failure of the Visualization and Distribution components means no comprehensive, presentable, or actionable evaluation can be delivered. Investing in or deploying this system now would lead to wasted resources, unreliable insights, and potentially misinformed investment decisions. Critical repairs are essential before reconsideration."
+            },
+            "risk_assessment": {
+              "primary_risks": [
+                {
+                  "risk": "Misinformed Investment Decisions",
+                  "description": "Reliance on analytics output without visual context or complete data delivery could lead to suboptimal or incorrect investment choices.",
+                  "mitigation": "Halt system deployment for live decisions. Implement manual review processes. Prioritize fixing core system delivery components."
+                },
+                {
+                  "risk": "Lack of Trust and Transparency",
+                  "description": "Stakeholders will lose confidence in a system that cannot reliably provide complete or understandable reports.",
+                  "mitigation": "Transparent communication regarding system limitations. Focus on delivering a reliable MVP with core functionality before scaling."
+                },
+                {
+                  "risk": "Resource Waste",
+                  "description": "Continued operation or development without addressing critical failures will consume resources without delivering value.",
+                  "mitigation": "Reallocate development resources immediately to diagnose and fix the Visualization Hub and Analytics errors."
+                }
+              ]
+            },
+            "next_steps": {
+              "immediate_actions": [
+                "**Urgent Debugging: Visualization Hub:** Immediately investigate why components are generated but not completed. This is the highest priority.",
+                "**Analytics Error Resolution:** Deep dive into the Advanced Analytics component to identify and fix the root causes of the 33% error rate.",
+                "**Metric Redefinition:** Review and revise success metrics to accurately reflect the successful completion and delivery of outputs, not just internal processing stages."
+              ],
+              "strategic_recommendations": [
+                "**End-to-End Testing:** Implement rigorous end-to-end testing to ensure all components integrate seamlessly and deliver their intended outputs.",
+                "**Modular Reliability Focus:** Prioritize achieving 99%+ reliability for each core component (Analytics, Visualization, Distribution) independently.",
+                "**User Feedback Loop:** Establish a feedback mechanism to ensure the system's outputs meet the actual needs and usability requirements of investment decision-makers."
+              ]
+            }
+          },
+          "analysis_metadata": {
+            "generated_at": "2025-09-21T11:41:16.787515",
+            "model_used": "gemini-2.5-flash",
+            "optimization_mode": "high_performance",
+            "processing_time_optimized": true
+          }
+        }
+      }
+    },
+    "execution_metadata": {
+      "start_time": "2025-09-21T11:34:07.612814",
+      "stages_completed": [],
+      "total_components": 17,
+      "successful_components": 12,
+      "failed_components": 0,
+      "performance_optimizations": {
+        "parallel_processing": true,
+        "caching_enabled": true,
+        "max_workers": 4,
+        "data_chunking": true,
+        "memory_optimization": true
+      }
+    },
+    "performance_summary": {
+      "total_stages": 4,
+      "successful_components": 12,
+      "failed_components": 0,
+      "overall_success_rate": "70.6%",
+      "actual_processing_time": "429.17 seconds",
+      "estimated_processing_time": "0.00 seconds",
+      "performance_improvement": "0.0%",
+      "data_size_processed": "0.00 MB",
+      "cache_hits": 0,
+      "parallel_tasks_executed": 2,
+      "optimization_level": "standard"
+    }
+  }
+}

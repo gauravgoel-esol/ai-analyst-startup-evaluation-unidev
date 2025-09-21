@@ -1,22 +1,9 @@
-"""
-Visualization Hub Application for Startup Analysis
 
-This module handles all visualization components for startup analysis, including:
-- Interactive chart generation for financial metrics and risk assessments
-- Investor presentation slide creation with customizable templates
-- Detailed report generation for due diligence and investment memos
-- Real-time dashboard components with live data updates
-
-The module leverages Google's Gemini Pro AI model to generate intelligent
-visualizations tailored to different investor types and presentation contexts.
-
-Author: AI Analyst System
-Date: September 20, 2025
-"""
 
 import google.generativeai as genai
 import os
 import json
+import re
 from typing import Dict, Any, List
 from datetime import datetime, timedelta
 import logging
@@ -30,6 +17,36 @@ except ImportError:
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+def clean_json_response(response_text: str) -> str:
+    """Clean AI-generated response to extract valid JSON."""
+    # Remove code block markers
+    cleaned = re.sub(r'```json\s*', '', response_text)
+    cleaned = re.sub(r'```\s*$', '', cleaned)
+    cleaned = re.sub(r'^```\s*', '', cleaned)
+    
+    # Remove extra whitespace and normalize
+    cleaned = cleaned.strip()
+    
+    # Try to find JSON object boundaries
+    start_idx = cleaned.find('{')
+    if start_idx != -1:
+        # Count braces to find matching end
+        brace_count = 0
+        end_idx = start_idx
+        for i, char in enumerate(cleaned[start_idx:], start_idx):
+            if char == '{':
+                brace_count += 1
+            elif char == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    end_idx = i + 1
+                    break
+        cleaned = cleaned[start_idx:end_idx]
+    
+    return cleaned
+
 
 # Configure Google Generative AI
 try:
@@ -101,12 +118,19 @@ def generate_interactive_charts(scores_data: Dict[str, float], chart_type: str, 
         chart_config_text = response.text.strip()
         
         # Clean and parse the response
-        if chart_config_text.startswith('```json'):
-            chart_config_text = chart_config_text.replace('```json', '').replace('```', '')
-        elif chart_config_text.startswith('```'):
-            chart_config_text = chart_config_text.replace('```', '')
+        chart_config_text = clean_json_response(chart_config_text)
         
-        chart_config = json.loads(chart_config_text)
+        try:
+            chart_config = json.loads(chart_config_text)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse chart configuration JSON: {e}")
+            # Fallback configuration
+            chart_config = {
+                "chart_type": chart_type,
+                "data": scores_data,
+                "config": {"responsive": True},
+                "error": f"JSON parsing failed: {str(e)}"
+            }
         
         # Add metadata and timestamp
         result = {
@@ -216,12 +240,19 @@ def generate_investor_slides(startup_data: Dict, investor_type: str, presentatio
         slides_text = response.text.strip()
         
         # Clean and parse the response
-        if slides_text.startswith('```json'):
-            slides_text = slides_text.replace('```json', '').replace('```', '')
-        elif slides_text.startswith('```'):
-            slides_text = slides_text.replace('```', '')
+        slides_text = clean_json_response(slides_text)
         
-        slides_config = json.loads(slides_text)
+        try:
+            slides_config = json.loads(slides_text)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse slides configuration JSON: {e}")
+            # Fallback configuration
+            slides_config = {
+                "slides": [{"title": f"{investor_type} Investment Overview", "content": "Analysis data processing..."}],
+                "charts_data": {},
+                "speaker_notes": {},
+                "error": f"JSON parsing failed: {str(e)}"
+            }
         
         # Structure the complete presentation output
         result = {
@@ -342,12 +373,18 @@ def generate_detailed_reports(full_analysis: Dict, report_type: str, template_id
         report_text = response.text.strip()
         
         # Clean and parse the response
-        if report_text.startswith('```json'):
-            report_text = report_text.replace('```json', '').replace('```', '')
-        elif report_text.startswith('```'):
-            report_text = report_text.replace('```', '')
+        report_text = clean_json_response(report_text)
         
-        report_config = json.loads(report_text)
+        try:
+            report_config = json.loads(report_text)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse report configuration JSON: {e}")
+            # Fallback configuration
+            report_config = {
+                "report_content": {"title": f"{report_type} Analysis Report", "summary": "Processing analysis data..."},
+                "charts": [],
+                "error": f"JSON parsing failed: {str(e)}"
+            }
         
         # Structure the complete report output
         result = {
