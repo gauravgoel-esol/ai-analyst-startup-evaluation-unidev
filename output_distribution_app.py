@@ -1,19 +1,3 @@
-"""
-Output Distribution Application for Startup Analysis
-
-This module handles output distribution for startup analysis including:
-- Investor portal content generation with deal flow dashboards and due diligence materials
-- Startup portal content with progress tracking and improvement plans
-- Smart notifications system with intelligent alerts and personalized communications
-- External integrations management with CRM, financial systems, and data syndication
-
-The module leverages Google's Gemini Pro AI model to generate intelligent
-output distribution content based on analysis data and user configurations.
-
-Author: AI Analyst System
-Date: September 20, 2025
-"""
-
 import google.generativeai as genai
 import os
 import json
@@ -27,12 +11,16 @@ logger = logging.getLogger(__name__)
 
 # Configure Google Generative AI
 try:
+    # Try to get API key from environment variable first
     api_key = os.getenv('GOOGLE_API_KEY')
+    
+    # If not found, use the direct API key as fallback
     if not api_key:
-        raise ValueError("GOOGLE_API_KEY environment variable not found")
+        api_key = 'AIzaSyDnVNkksb73nOcUtJ98Vjx_lIzDa3ZZ3m0'
+        logger.info("Using direct API key as fallback")
     
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     logger.info("Google Generative AI configured successfully")
 except Exception as e:
     logger.error(f"Failed to configure Google Generative AI: {e}")

@@ -1,22 +1,7 @@
-"""
-Visualization Hub Application for Startup Analysis
-
-This module handles all visualization components for startup analysis, including:
-- Interactive chart generation for financial metrics and risk assessments
-- Investor presentation slide creation with customizable templates
-- Detailed report generation for due diligence and investment memos
-- Real-time dashboard components with live data updates
-
-The module leverages Google's Gemini Pro AI model to generate intelligent
-visualizations tailored to different investor types and presentation contexts.
-
-Author: AI Analyst System
-Date: September 20, 2025
-"""
-
 import google.generativeai as genai
 import os
 import json
+import re
 from typing import Dict, Any, List
 from datetime import datetime, timedelta
 import logging
@@ -27,12 +12,16 @@ logger = logging.getLogger(__name__)
 
 # Configure Google Generative AI
 try:
+    # Try to get API key from environment variable first
     api_key = os.getenv('GOOGLE_API_KEY')
+    
+    # If not found, use the direct API key as fallback
     if not api_key:
-        raise ValueError("GOOGLE_API_KEY environment variable not found")
+        api_key = 'AIzaSyDnVNkksb73nOcUtJ98Vjx_lIzDa3ZZ3m0'
+        logger.info("Using direct API key as fallback")
     
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     logger.info("Google Generative AI configured successfully")
 except Exception as e:
     logger.error(f"Failed to configure Google Generative AI: {e}")
@@ -94,13 +83,64 @@ def generate_interactive_charts(scores_data: Dict[str, float], chart_type: str, 
         response = model.generate_content(prompt)
         chart_config_text = response.text.strip()
         
-        # Clean and parse the response
+        # Enhanced JSON cleaning and parsing with better error handling
         if chart_config_text.startswith('```json'):
             chart_config_text = chart_config_text.replace('```json', '').replace('```', '')
         elif chart_config_text.startswith('```'):
             chart_config_text = chart_config_text.replace('```', '')
         
-        chart_config = json.loads(chart_config_text)
+        # Remove any potential markdown or extra whitespace
+        chart_config_text = chart_config_text.strip()
+        
+        # Try to parse JSON with fallback handling
+        try:
+            chart_config = json.loads(chart_config_text)
+        except json.JSONDecodeError as json_error:
+            logger.warning(f"Initial JSON parse failed for {chart_type}, attempting cleanup: {json_error}")
+            
+            # Attempt to fix common JSON issues
+            cleaned_text = chart_config_text
+            
+            # Remove any trailing commas
+            cleaned_text = re.sub(r',\s*}', '}', cleaned_text)
+            cleaned_text = re.sub(r',\s*]', ']', cleaned_text)
+            
+            # Remove any comments that might be in the JSON
+            cleaned_text = re.sub(r'//.*', '', cleaned_text)
+            cleaned_text = re.sub(r'/\*.*?\*/', '', cleaned_text, flags=re.DOTALL)
+            
+            # Try to find and extract just the JSON part if there's extra text
+            json_start = cleaned_text.find('{')
+            json_end = cleaned_text.rfind('}') + 1
+            if json_start != -1 and json_end > json_start:
+                cleaned_text = cleaned_text[json_start:json_end]
+            
+            try:
+                chart_config = json.loads(cleaned_text)
+                logger.info(f"Successfully parsed {chart_type} chart after cleanup")
+            except json.JSONDecodeError:
+                # If all else fails, create a basic fallback configuration
+                logger.warning(f"Creating fallback configuration for {chart_type} due to parsing issues")
+                chart_config = {
+                    "type": chart_type,
+                    "data": {
+                        "labels": list(scores_data.keys()) if isinstance(scores_data, dict) else ["Data"],
+                        "datasets": [{
+                            "label": f"{chart_type.title()} Analysis",
+                            "data": list(scores_data.values()) if isinstance(scores_data, dict) else [100],
+                            "backgroundColor": ["#2E86C1", "#28B463", "#F39C12", "#E74C3C", "#8E44AD"]
+                        }]
+                    },
+                    "options": {
+                        "responsive": True,
+                        "plugins": {
+                            "title": {
+                                "display": True,
+                                "text": f"Startup {chart_type.title()} Analysis"
+                            }
+                        }
+                    }
+                }
         
         # Add metadata and timestamp
         result = {
