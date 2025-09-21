@@ -1,0 +1,5 @@
+[console_scripts]
+vc_evaluate = app:main
+vc_preprocess = preprocessing:run_preprocessing
+vc_server = server:main
+vc_train = training:train_pipeline

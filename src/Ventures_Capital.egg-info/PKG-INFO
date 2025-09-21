@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: Ventures_Capital
+Version: 0.1.0
+Summary: AI Startup Evaluation & Analyst Tools
+Home-page: https://github.com/gauravgoel-esol/ai-analyst-startup-evaluation-unidev
+Author: ArunSinghNegi
+Author-email: negi.arun@otomashen.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Researchers
+Classifier: Topic :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
