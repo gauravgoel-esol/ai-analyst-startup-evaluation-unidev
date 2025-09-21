@@ -23,6 +23,14 @@ from datetime import datetime
 from typing import Dict, Any, List
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import google.generativeai as genai
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    print("python-dotenv not installed. Using system environment variables only.")
+    print("To install: pip install python-dotenv")
 from dataclasses import dataclass
 import hashlib
 
@@ -43,17 +51,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configure Google Generative AI
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaSyDnVNkksb73nOcUtJ98Vjx_lIzDa3ZZ3m0')
-genai.configure(api_key=GOOGLE_API_KEY)
-
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+if not GOOGLE_API_KEY:
+    logger.error("GOOGLE_API_KEY not found in environment variables. Please set it in .env file")
+    model = None
+else:
+    genai.configure(api_key=GOOGLE_API_KEY)
 try:
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     logger.info("Gemini model configured successfully")
 except Exception as e:
     logger.error(f"Failed to configure Gemini model: {e}")
-    model = None
-
-@dataclass
+    model = None@dataclass
 class ProcessingStats:
     """Track processing statistics and performance metrics."""
     start_time: float
@@ -554,7 +563,7 @@ class PerformanceOptimizedOrchestrator:
             
             genai_analysis["analysis_metadata"] = {
                 "generated_at": datetime.now().isoformat(),
-                "model_used": "gemini-1.5-flash",
+                "model_used": "gemini-2.5-flash",
                 "optimization_mode": "high_performance",
                 "processing_time_optimized": True
             }
