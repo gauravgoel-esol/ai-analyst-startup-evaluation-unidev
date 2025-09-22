@@ -13,3 +13,5 @@ pytesseract
 google-cloud-bigquery
 gspread
 google-auth
+firebase-admin
+pydantic

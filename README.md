@@ -50,6 +50,13 @@ The platform reduces venture capital due diligence time from **weeks to hours** 
 6. **Output Delivery**
    Frontend displays a dashboard of KPIs, trends, and comparisons. Users can adjust filters or scoring sliders to refine outputs.
 
+
+## Environment Secrets
+
+   1. Set up a folder secrets to store GCP vertex AI json secret key.
+   2. Create a .env file in root folder.
+      GEMINI_API_KEY = ""
+
 ---
 
 ## Installation (Conda Environment)

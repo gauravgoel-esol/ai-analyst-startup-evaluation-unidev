@@ -6,13 +6,20 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 from google.oauth2 import service_account
-from src.constants.constants import key_path, project_id, region
 
 load_dotenv()
 
+# GCP setup
+key_path = Path("secrets\ztr1-463311-7921ce5c1de0.json")
+project_id = "ztr1-463311"
+region = "us-central1"
+
+# Use the application default credentials.
 cred = service_account.Credentials.from_service_account_file(key_path)
 
 
+
+# Initialize Firebase Admin app (only once)
 if not firebase_admin._apps:
     app = firebase_admin.initialize_app(credentials.Certificate(key_path))
 else:
@@ -20,18 +27,32 @@ else:
 
 db = firestore.client()
 
-def upsert_to_firestore(collection_name, doc_id, data):
-    """Upsert JSON data into Firestore"""
-    try:
-        doc_ref = db.collection(collection_name).document(doc_id)
-        doc_ref.set(data, merge=True)
-        print(f"Upserted {doc_id} into {collection_name}")
-        return True
-    except Exception as e:
-        print(f"Firestore upsert failed: {e}")
-        return False
+print(" Firestore connected successfully!")
 
-def upsert_json_to_firestore(folder_path:str, collection_name:str):
+# def test_firestore():
+#     # Reference to dummy document
+#     doc_ref = db.collection("test_collection").document("dummy_doc")
+
+#     # Write data
+#     dummy_data = {
+#         "message": "Hello Firestore!",
+#         "status": "test_ok",
+#         "count": 1
+#     }
+#     doc_ref.set(dummy_data)
+#     print(" Dummy document written:", dummy_data)
+
+#     # Read data back
+#     doc = doc_ref.get()
+#     if doc.exists:
+#         print(" Firestore doc retrieved:", doc.to_dict())
+#     else:
+#         print(" No such document found!")
+
+# if __name__ == "__main__":
+#     test_firestore()
+
+def upsert_json_to_firestore(folder_path="data/processed_output", collection_name="VC_data"):
     folder = Path(folder_path)
     if not folder.exists():
         print(f"Folder {folder_path} does not exist.")
@@ -58,7 +79,7 @@ def upsert_json_to_firestore(folder_path:str, collection_name:str):
         except Exception as e:
             print(f"Failed to process {file_path.name}: {e}")
 
-def retrieve_vc_data(collection_name:str, doc_id:str):
+def retrieve_vc_data(collection_name="VC_data", doc_id=None):
     """
     Retrieve Firestore documents from VC_data collection.
 
@@ -91,3 +112,12 @@ def retrieve_vc_data(collection_name:str, doc_id:str):
     except Exception as e:
         print(f"Error retrieving data: {e}")
         return None
+
+if __name__ == "__main__":
+    # upsert_json_to_firestore()
+    single_doc = retrieve_vc_data(doc_id="Dr. Doodley Investor Deck Aug 2025_pages")
+    print("Single doc:", single_doc)
+
+    # Retrieve all documents in VC_data
+    all_docs = retrieve_vc_data()
+    print(f"Total docs retrieved: {len(all_docs)}")
